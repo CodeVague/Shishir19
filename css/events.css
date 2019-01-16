@@ -1,0 +1,53 @@
+body {background-color:rgb(196, 196, 196);}
+h1, h2 {text-align: center;}
+h1 {font-size:2.4em;}
+.container, .k-container, .part, .part1, .k-others, .k-body, .modal, .modal-content, .k-part {display:block;}
+.k-body, .part, .k-part, .part1 {float:left;}
+.k-container, .k-body {height:28em;}
+.container, .modal-content {margin:auto;}
+.k-body, .k-part, .part {background-color:lightgrey;}
+.part1{background-color:lightblue;}
+.k-body, .k-part{width:20%}
+.close{float: right;font-size: 28px;font-weight: bold;}
+
+.container{
+  /* position:relative; */
+  width:95%;
+  height:50em;
+  background-color:#fff;
+}
+
+.k-container{
+  width:100%;
+}
+
+.k-part{
+  border-radius:50%;
+  height:13em;
+  margin: 1em 0;
+}
+
+.part, .part1{
+  margin:20px 0;
+  width:25%;
+  height:320px;
+}
+
+.modal{
+  position:fixed;
+  z-index: 1;
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  background-color: rgba(68, 68, 68, 0.116);
+  overflow: auto;
+  display:none;
+}
+
+.modal-content{
+  font-family: Arial, Helvetica, sans-serif;
+  height:39em;
+  width:60%;
+  background-color:#fff;
+}
