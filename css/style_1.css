@@ -20,6 +20,7 @@
     padding:20px 30px 30px;
     width:60%;
     border:dashed 2px;
+    text-align:center;
     font-size:1.4em;
     border-color: rgba(90, 0, 20, 0.89);    
 }
