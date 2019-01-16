@@ -1,12 +1,12 @@
 body{
     margin:0;
-    background-image: linear-gradient(to bottom, rgb(13, 27, 77),rgb(56, 77, 155), rgb(23, 34, 85));
+    background-color:rgb(38, 36, 48);    
 }
 
 h1{
     font-size:2.2em;
     text-align:center;
-    color:rgb(168, 167, 167);
+    color:rgb(171, 186, 236);
     text-shadow: black 3px 3px;
 }
 
@@ -21,7 +21,7 @@ table{
     margin:auto;
     margin-top:.5em;
     width: 90%;
-    background-image: linear-gradient(to bottom, rgb(8, 18, 53),rgb(32, 55, 136), rgb(33, 45, 99));
+    background-image: linear-gradient(to bottom, rgb(15, 16, 36), rgb(22, 32, 78));
     height:560px;
     overflow:none;
     padding:10px;
@@ -43,14 +43,15 @@ th{
     color:black;
     font-style:inherit;
     text-align: center;
-    background-color: gray;
+    background-color: rgb(146, 156, 202);
     border:2px solid black;
 }
 
 ul{
-    background-image: linear-gradient(to bottom,rgb(5, 12, 37), rgb(4, 9, 34));
+    background-color:rgb(15, 16, 36);
+    text-shadow: rgb(18, 18, 88) 2px 2px;
 }
 
 li:hover{
-    background-color: rgba(13, 27, 77, 0.990);
+    background-color: rgb(9, 21, 59);
   }
