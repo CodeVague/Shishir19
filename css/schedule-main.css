@@ -1,0 +1,82 @@
+body, .container, .container-1, .container-2, .tcard, .lunch, .bcard, .t-content {display:block;}
+
+body{
+    background-color: rgb(243, 222, 212);
+    width:100%;
+    height:100%;
+    padding:0;
+}
+
+ul{background-color:black;}   
+
+li:hover{
+    background-color:rgb(48, 48, 48);
+}
+
+body, nav, ul, .container{
+    margin:0;
+}
+
+h1{
+    text-align:center;
+    font-size: 3em;
+}
+
+.container{
+    margin:auto;
+    width:95%;
+    height:100%;
+}
+
+.contents, .dates{
+    float:left;
+    height:550px;
+}
+
+.container-1, .container-2{
+    height:550px;
+    width:100%;
+    padding:0;
+}
+
+.contents{
+    width:85%;
+    background-color:rgb(255, 255, 255);
+}
+
+.dates{
+    width:15%;
+    background:rgba(0, 0, 0, 0.87);
+    color: rgb(192, 192, 192);
+}
+
+.tcard, .lunch, .bcard{
+    margin:0;
+    float:left;
+    border:solid 1px black;
+    border-right:none;
+    height:49.75%;
+}
+
+.tcard{
+    width:30%;
+}
+
+.lunch{
+    width:8%;
+    text-align:center;
+    font-size:1.2em;
+    color: rgb(66, 4, 4);
+    font-weight:bold;
+}
+
+.bcard{width:32.75%;}
+
+.t-content{
+    height:100%;
+    text-align:center;
+    font-size : 1.4em;
+    font-weight: 600;
+    overflow:hidden;
+    color: rgb(146, 7, 7);
+}

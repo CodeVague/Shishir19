@@ -27,7 +27,6 @@ li, a, .drop-inner{
     margin:5px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     -webkit-transition: 1s ease-in;
-    -moz-transition: 1s ease-in;
     transition: 1s ease-in;
 }
 
@@ -38,13 +37,11 @@ li, a, .drop-inner{
     width:3em;
 }
 
-#drop:hover .drop-content{
-    display:block;
-}
+#drop:hover .drop-content{display:block;}
 
 li:hover, .d-items:hover{
     background-color: rgba(85, 3, 3, 0.76);
-    -moz-transition: .3s cubic-bezier(0.86, 0, 0.07, 1);
+    -webkit-transition: .3s cubic-bezier(0.86, 0, 0.07, 1);
     transition: .3s cubic-bezier(0.86, 0, 0.07, 1);
 }
 
