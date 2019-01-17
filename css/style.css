@@ -4,6 +4,13 @@
     padding:0;
 }
 
+#about-container, #event-container, #celeb-container, #button, .c-content, .soon, .cel, .main-cel, .c-pic
+, #contact-details, #footer_img_div, .icon, #social,.copyright {display:block;}
+#about-container, #event-container, #celeb-container, .c-content, .soon, #social,.copyright {margin : 0 auto;}
+.card, #btn, .cel, #footer_img_div, #contact-details, .fa-facebook, .fa-instagram, .fa-youtube{float:left;}
+.nitm-logo, .shishir_logo{float:right;}
+.heading, .heading2, #btn, .soon, .c-content, h2,#social, .c, .fa, .copyright{text-align:center;}
+
 body{
     width:100%;
     height:100%;
@@ -20,23 +27,11 @@ body{
     padding : 40px;
 }
 
-#about-container, #event-container, #celeb-container{
-display:block;
-margin:0 auto;
-width:90%;   
-}
+#about-container, #event-container, #celeb-container{width:90%;}
 
-#about-container{
-    background:rgb(216, 216, 216);
-}
-
-#event-container{
-    background:rgb(85, 85, 85); 
-}
-
-#celeb-container{
-    background:rgb(134, 134, 134);
-}
+#about-container{background:rgb(216, 216, 216);}
+#event-container{background:rgb(85, 85, 85);}
+#celeb-container{background:rgb(134, 134, 134);}
 
 .card{
     border: solid 2px;
@@ -47,7 +42,6 @@ width:90%;
     margin:15px;
     height:550px;
     width:25%;
-    float:left;
 }
 
 .card-head{
@@ -58,7 +52,6 @@ width:90%;
 
 .heading, .heading2{
     margin:40px;
-    text-align: center;
 }
 
 .heading{
@@ -73,11 +66,8 @@ width:90%;
 }
 
 #btn{
-    display: block;
     position:relative;
-    float:left;
     width:10%;
-    text-align:center;
 }
 
 #btn-more{
@@ -86,11 +76,37 @@ width:90%;
     transform: translate(-50%,-50%);
     height:30px;
     padding:20px;
-    border-radius: 30%;
+    border-radius: 50%;
     font-size:1.6em;
     color:rgb(238, 223, 250);
     text-shadow:rgb(41, 1, 65) 2px 2px;
     background-color: rgb(50, 12, 99);
+}
+
+.soon{
+    padding:10px;
+    font-size: 3em;
+}
+
+.c-name{
+    font-weight:bold;
+    font-size:1.2em;
+}
+
+.cel{
+    width:20%;
+    height:50%;
+    overflow: hidden;
+}
+
+.c-pic{
+    width:100%;
+    height:200px;
+}
+
+.main-cel{
+    width:100%;
+    height:40%;
 }
 
 #foo_ter{
@@ -104,24 +120,15 @@ width:90%;
     margin:1.6em;
     width: 80px;
     height:80px;
-    float:right;
 }
 
 .shishir_logo{
     margin:1.6em;
     height:80px;
     width:100px;
-    float:right;
-}
-
- #footer_img_div{
-     display: block;
-     float:left;
 }
 
 #contact-details{
-    display:block;
-    float:left;
     margin: 4em 4em 0;
     padding:10px;
 }
@@ -131,10 +138,7 @@ width:90%;
      font-size:1em;
 }
 
-h2,#social, .c{
-     text-align: center;
-     color:white;
-}
+h2,#social, .c{color:white;}
 
 .map{
     margin:20px;
@@ -143,8 +147,6 @@ h2,#social, .c{
 }
 
 #social{
-    display:block;
-    margin:0 auto;
     width:33%;
     margin-top: 40px;
     color:white;
@@ -152,46 +154,25 @@ h2,#social, .c{
 }
  
 .icon{
-    display:block;
     margin:20px auto;
     width:50%;
     height:100px;
     align-content: center;
 }
 
- .fa-facebook {
-    background: #3B5998;
-    float:left;
-}
-
-.fa-instagram {
-    background: #c53093;
-    float:left;
-}
-
-.fa-youtube {
-    background: #bb0000;
-    float:left;
-}
+ .fa-facebook {background: #3B5998;}
+.fa-instagram {background: #c53093;}
+.fa-youtube {background: #bb0000;}
 
 .fa {
     padding: 20px;
     font-size: 2em;
     width: 30px;
-    text-align: center;
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 50%;
     color:white;
 }
 
-.fa:hover {
-    opacity: 0.7;
-}
-
-.copyright{
-    display:block;
-    margin:0 auto;
-    text-align: center;
-    width:20%;
-}
+.fa:hover {opacity: 0.7;}
+.copyright{width:20%;}
