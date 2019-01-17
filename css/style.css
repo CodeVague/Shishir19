@@ -3,13 +3,12 @@
     margin:0;
     padding:0;
 }
-
 #about-container, #event-container, #celeb-container, #button, .c-content, .soon, .cel, .main-cel, .c-pic
-, #contact-details, #footer_img_div, .icon, #social,.copyright {display:block;}
+, #contact-details, #footer_img_div, .icon, #social,.copyright,#about-content, .event-content {display:block;}
 #about-container, #event-container, #celeb-container, .c-content, .soon, #social,.copyright {margin : 0 auto;}
-.card, #btn, .cel, #footer_img_div, #contact-details, .fa-facebook, .fa-instagram, .fa-youtube{float:left;}
+.card, #btn, .cel, #footer_img_div, #contact-details, .fa-facebook, .fa-instagram, .fa-youtube {float:left;}
 .nitm-logo, .shishir_logo{float:right;}
-.heading, .heading2, #btn, .soon, .c-content, h2,#social, .c, .fa, .copyright{text-align:center;}
+.heading, .heading2, #btn, .soon, .c-content, h2,#social, .c, .fa, .copyright, #about-content {text-align:center;}
 
 body{
     width:100%;
@@ -28,12 +27,33 @@ body{
 }
 
 #about-container, #event-container, #celeb-container{width:90%;}
+#about-container{background-image: linear-gradient(to bottom right, rgb(5, 1, 17), rgb(43, 2, 2), rgb(8, 4, 14));}
+#event-container{background-image: linear-gradient(to bottom right,  rgb(8, 1, 36), rgb(12, 2, 39), rgb(11, 2, 26));}
+#celeb-container{background-image: linear-gradient(to bottom left, rgb(5, 1, 17), rgb(29, 0, 48), rgb(27, 1, 39));}
 
-#about-container{background:rgb(216, 216, 216);}
-#event-container{background:rgb(85, 85, 85);}
-#celeb-container{background:rgb(134, 134, 134);}
+#about-content, .event-content{
+    margin: 5px auto;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+#about-content{
+    padding:20px 30px 30px;
+    width:60%;
+    border:dashed 2px;
+    font-size:1.4em;
+    box-shadow: 10px 8px 10px 5px rgb(15, 1, 1);
+    border-color: rgba(90, 0, 20, 0.89);    
+}
+
+.event-content{
+    width:65%;
+    padding:30px;
+    font-size:1.3em;
+    box-shadow: 3px 3px 3px 5px rgb(15, 1, 1);
+}
 
 .card{
+    box-shadow: 5px 5px 5px 5px rgb(15, 1, 1);
     border: solid 2px;
     border-color: rgb(50, 12, 99);
 }
@@ -62,7 +82,7 @@ body{
 
 .heading2{
     color:rgb(198, 158, 231);
-    text-shadow:rgb(41, 1, 65) 4px 4px;
+    text-shadow:rgb(18, 1, 27) 3px 3px;
 }
 
 #btn{
@@ -77,10 +97,18 @@ body{
     height:30px;
     padding:20px;
     border-radius: 50%;
-    font-size:1.6em;
-    color:rgb(238, 223, 250);
-    text-shadow:rgb(41, 1, 65) 2px 2px;
-    background-color: rgb(50, 12, 99);
+    font-size:1.4em;
+    color:rgb(235, 211, 255);
+    text-shadow:rgb(27, 1, 43) 4px 3px;
+    opacity:0.7;
+    background-image:linear-gradient(to bottom right, rgb(38, 8, 71),rgb(43, 13, 82),rgb(27, 4, 53));
+    box-shadow: 3px 3px 3px 3px rgb(13, 2, 27);
+}
+
+#btn-more:hover{
+    opacity:1;
+    -moz-transition:.25s ease-in;
+    transition:.25s ease-in;
 }
 
 .soon{
@@ -160,7 +188,7 @@ h2,#social, .c{color:white;}
     align-content: center;
 }
 
- .fa-facebook {background: #3B5998;}
+.fa-facebook {background: #3B5998;}
 .fa-instagram {background: #c53093;}
 .fa-youtube {background: #bb0000;}
 
