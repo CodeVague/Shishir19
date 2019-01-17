@@ -43,13 +43,20 @@ body{
     font-size:1.4em;
     box-shadow: 10px 8px 10px 5px rgb(15, 1, 1);
     border-color: rgba(90, 0, 20, 0.89);    
+    background-color: rgb(230, 217, 217);
+    color:rgb(24, 11, 11);
 }
+
+#a-head{color:rgb(243, 232, 232);}
 
 .event-content{
     width:65%;
     padding:30px;
+    text-align: center;
     font-size:1.3em;
     box-shadow: 3px 3px 3px 5px rgb(15, 1, 1);
+    background-color: lightcyan;
+    color: rgb(7, 7, 75);
 }
 
 .card{
@@ -65,13 +72,17 @@ body{
 }
 
 .card-head{
-    background-color: rgb(50, 12, 99);
+    background-color: rgb(33, 26, 75);
     height:20%;
     padding: 5px 0 0 0;
 }
 
 .heading, .heading2{
     margin:40px;
+}
+
+#e-head{
+    color:rgb(221, 194, 243);
 }
 
 .heading{
@@ -81,7 +92,7 @@ body{
 }
 
 .heading2{
-    color:rgb(198, 158, 231);
+    color:rgb(205, 176, 230);
     text-shadow:rgb(18, 1, 27) 3px 3px;
 }
 
