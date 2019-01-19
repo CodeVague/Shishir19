@@ -43,7 +43,7 @@ body{
     font-size:1.4em;
     box-shadow: 10px 8px 10px 5px rgb(15, 1, 1);
     border-color: rgba(90, 0, 20, 0.89);    
-    background-color: lightcyan;
+    background-color: rgb(255, 245, 245);
     color:rgb(24, 11, 11);
 }
 

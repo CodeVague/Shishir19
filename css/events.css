@@ -1,6 +1,6 @@
 *{font-family: Arial, Helvetica, sans-serif; 
   text-align: center;}
-body {background-color: rgb(222, 253, 252);}
+body {background-color: rgb(222, 253, 252);padding:0; margin:0;}
 h1, h2 {text-align: center;}
 h1 {font-size:2.4em;}
 #C3, #C4, #C10, #C11 {height:45em;}
@@ -30,6 +30,7 @@ h1 {font-size:2.4em;}
   width:100%;
   margin:0;
   box-shadow: 3px 3px 3px 5px rgb(19, 8, 18);
+  background-color:rgb(203, 252, 255);
 }
 
 .k-content{
@@ -118,13 +119,14 @@ font-size: 1em;}
 #E8{background-color: rgb(225, 236, 158);}
 .part{background-color:rgb(243, 166, 166);}
 .modal-content{
-  background-image:linear-gradient(to bottom right, rgb(79, 175, 182),rgb(162, 227, 230),rgb(255, 231, 231));}
+  background-image:linear-gradient(to bottom right, rgb(146, 243, 250),rgb(151, 243, 248),rgb(213, 247, 255));}
 #C0{background-image:linear-gradient(to bottom right, rgb(66, 84, 163),rgb(154, 173, 255),rgb(255, 231, 231));}
 #X0{background-color: rgb(26, 167, 172);}
-#X1{background-color: rgb(186, 248, 248);}
+#X1{background-color: rgb(107, 235, 235);}
 #X2{background-color: rgb(145, 202, 240);}
 #X3{background-color: rgb(213, 168, 255);}
-#f-head{color:rgb(253, 213, 213);font-size:2em;}
+#f-head{color:rgb(255, 255, 255);font-size:2em;text-shadow: 1px 1px rgb(71, 71, 71);}
 #CC0{background-image:linear-gradient(to bottom right, rgb(85, 180, 187),rgb(182, 253, 255),rgb(255, 231, 231));}
 .fpart{background-color:rgb(153, 252, 150);}
 .fpart1{background-color:rgb(218, 253, 136);}
+ul,nav{margin:0;}

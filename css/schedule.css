@@ -47,11 +47,11 @@ th{
     border:2px solid black;
 }
 
-ul{
+.ul-class, .d-items{
     background-color:rgb(15, 16, 36);
     text-shadow: rgb(18, 18, 88) 2px 2px;
 }
 
-li:hover{
+.li-class:hover,.d-items:hover{
     background-color: rgb(9, 21, 59);
   }

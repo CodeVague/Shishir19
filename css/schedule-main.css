@@ -7,13 +7,13 @@ body{
     padding:0;
 }
 
-ul{background-color:black;}   
+.ul-class{background-color:black;}   
 
-li:hover{
+.li-class:hover{
     background-color:rgb(48, 48, 48);
 }
 
-body, nav, ul, .container{
+body, nav, .ul-class, .container{
     margin:0;
 }
 

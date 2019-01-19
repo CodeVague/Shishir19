@@ -1,4 +1,4 @@
-ul{
+.ul-class{
     list-style-type: none;
     background-color: rgb(19, 6, 6);
     padding:0 10px;
@@ -7,10 +7,10 @@ ul{
     overflow: hidden;
 }
 
-li {float : right;}
+.li-class {float : right;}
 .drop-inner{font-family: inherit; margin:0;}
 
-li, a, .drop-inner{
+.li-class, a, .drop-inner{
     display: block;
     color: rgba(243, 234, 234, 0.829);
     text-align: center;
@@ -39,7 +39,7 @@ li, a, .drop-inner{
 
 #drop:hover .drop-content{display:block;}
 
-li:hover, .d-items:hover{
+.li-class:hover, .d-items:hover{
     background-color: rgba(85, 3, 3, 0.76);
     -webkit-transition: .3s cubic-bezier(0.86, 0, 0.07, 1);
     transition: .3s cubic-bezier(0.86, 0, 0.07, 1);
