@@ -1,34 +1,55 @@
-body {background-color:rgb(196, 196, 196);}
+*{font-family: Arial, Helvetica, sans-serif; 
+  text-align: center;}
+body {background-color: rgb(252, 235, 235);}
 h1, h2 {text-align: center;}
 h1 {font-size:2.4em;}
+#C3, #C4, #C10, #C11 {height:45em;}
 .container, .k-container, .part, .part1, .k-others, .k-body, .f-body, .modal, .modal-content, .k-part, .f-part, .f-container,.fpart, .fpart1 {display:block;}
 .k-body, .f-body, .part, .k-part, .part1, .f-part,.fpart, .fpart1 {float:left;}
 .k-container, .k-body, .f-body, .f-container {height:28em;}
-.container, .modal-content {margin:auto;}
-.k-body, .f-body, .k-part, .part, .f-part, .fpart {background-color:lightgrey;}
+.container, .modal-content  {margin:auto;}
 .part1, .fpart1{background-color:lightblue;}
-.k-body, .f-body {width:20%}
-.close{float: right;font-size: 28px;font-weight: bold;}
+.k-body, .f-body {width:20%;border-radius:2%;}
+.close{float: right;font-size: 2em;font-weight: bold;}
+.Elist2{margin:0; padding: 0;}
+
 .container{
   width:95%;
   height:52em;
   background-color:#fff;
+  border-radius:2%;
+  background-color: rgb(215, 212, 218);
 }
 
 .k-container{
   width:100%;
+  box-shadow: 3px 3px 3px 5px rgb(19, 8, 18);
 }
 
 .f-container{
   width:100%;
   margin:0;
+  box-shadow: 3px 3px 3px 5px rgb(19, 8, 18);
 }
 
+.k-content{
+  padding: 0 1em 1em;
+}
+
+.list{
+  padding:1em;
+  margin :0;
+
+}
+
+.k-body{color:rgb(228, 195, 241);}
+ h1{color:rgb(22, 2, 22);text-shadow: 1px 1px rgb(34, 34, 34);}
 .k-part{
   width:18%;
   border-radius:50%;
   height:13em;
   margin: 10px;
+  line-height: 10em;
 }
 
 .f-part{
@@ -36,19 +57,24 @@ h1 {font-size:2.4em;}
   margin:5% 20px 20px;
   height:20em;
   border-radius:50%;
+  line-height:16em;
 }
 
-.part, .part1{
-  margin:20px 0;
-  width:25%;
+.table{background-color:lightblue;
+  padding:1em;
+height:25em;}
+.f-body{line-height: 10em;}
+
+.part, .part1, .fpart1, .fpart{
+  margin:2em 0;
+  line-height: 8em;
+  border-radius:2%;
   height:320px;
 }
 
-.fpart, .fpart1{
-  margin:20px 0;
-  width:20%;
-  height:320px;
-}
+.part, .part1{width:25%;font-size:1.8em;}
+.fpart, .fpart1{width:20%;
+  font-size:1.4em;}
 
 .modal, .mmodal{
   position:fixed;
@@ -57,14 +83,40 @@ h1 {font-size:2.4em;}
   top:0;
   height:100%;
   width:100%;
-  background-color: rgba(68, 68, 68, 0.116);
+  background-color: rgba(68, 68, 68, 0.384);
   overflow: auto;
   display:none;
 }
 
 .modal-content{
   font-family: Arial, Helvetica, sans-serif;
-  height:39em;
+  height:100%;
+  padding:1em 2em;
+  font-size:1.2em;
   width:60%;
   background-color:#fff;
 }
+
+ul,li{text-align:left; margin-left:1em;}
+.tab, tr{padding: 1.4em;
+background-color: lightcyan;}
+#C12{ width:50%;}
+#CC1{height:60em;}
+#CC3{height: 70em;
+font-size: 1em;} 
+#CC4{height:50em;}
+
+#E0{background-color: rgb(58, 13, 58);}
+#E1{background-color: rgb(241, 177, 241);}
+#E2{background-color: rgb(217, 181, 238);}
+#E3{background-color: rgb(206, 188, 241);}
+#E4{background-color: rgb(187, 192, 236);}
+#E5{background-color: rgb(237, 253, 165);}
+#E6{background-color: rgb(255, 223, 174);}
+#E7{background-color: rgb(243, 201, 193);}
+#E8{background-color: rgb(225, 236, 158);}
+.part{background-color:rgb(240, 183, 183);}
+.modal-content{
+  background-image:linear-gradient(to bottom left, rgb(255, 242, 242),rgb(201, 201, 201),rgb(179, 179, 179));
+}
+#C0{background-image:linear-gradient(to bottom right, rgb(66, 84, 163),rgb(154, 173, 255),rgb(255, 231, 231));}
