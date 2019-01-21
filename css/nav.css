@@ -58,3 +58,19 @@
 }
 
 .li-logo a{padding:0;}
+
+
+.ul-class1{
+    list-style-type: none;
+    background-color: rgb(19, 6, 6);
+    padding:0 10px;
+    margin:0;
+    overflow: hidden;
+}
+
+#menu{display:none;}
+#drop-menu{
+    display:none;
+    height:500px;
+    width:100%;
+}
