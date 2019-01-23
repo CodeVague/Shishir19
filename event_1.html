@@ -12,59 +12,49 @@
 </head>
 
 <body>
-  
+
   <nav>
     <ul class="ul-class">
-        <li class="li-logo"> <a href="index.html"><img src="img/logo.jpg" class="logo" alt=""></a> </li>
-        <li id="menu" class="li-class" onclick = "drop()"><a href="#">Menu</a></li>
-        <li class="li-class"> <a href="#">Contact</a></li>
-        <li class="li-class"> <a href="#">Teams</a></li>
-        <li class="li-class" id="drop">
-            <div class="drop-inner">Schedule</div>
-            <div class="drop-content">
-                <a class="d-items" href="schedule.html">Pre</a>
-                <a class="d-items" href="schedule-main.html">Main</a>
-            </div>
-        </li>
-        <li class="li-class" id="drop">
-            <div class="drop-inner">Events</div>
-            <div class="drop-content">
-                <a class="d-items" href="event_1.html">Day-1</a>
-                <a class="d-items" href="event_2.html">Day-2</a>
-            </div>
-        </li>
-        <li class="li-class"> <a href="index.html">Home</a></li>
+      <li class="li-logo"> <a href="index.html"><img src="img/logo.jpg" class="logo" alt=""></a> </li>
+      <li id="menu" class="li-class" onclick="drop()"><a href="#">Menu</a></li>
+      <li class="li-class"> <a href="#">Contact</a></li>
+      <li class="li-class"> <a href="#">Teams</a></li>
+      <li class="li-class" id="drop">
+        <div class="drop-inner">Schedule</div>
+        <div class="drop-content">
+          <a class="d-items" href="schedule.html">Pre</a>
+          <a class="d-items" href="schedule-main.html">Main</a>
+        </div>
+      </li>
+      <li class="li-class" id="drop">
+        <div class="drop-inner">Events</div>
+        <div class="drop-content">
+          <a class="d-items" href="event_1.html">Day-1</a>
+          <a class="d-items" href="event_2.html">Day-2</a>
+        </div>
+      </li>
+      <li class="li-class"> <a href="index.html">Home</a></li>
     </ul>
-</nav>
+  </nav>
 
-<div id="drop-menu">
+  <div id="drop-menu">
     <ul class="ul-class1">
-        <li class="li-class1" onclick = "undrop()"><a href="#">Close</a></li>
-        <li class="li-class1"> <a href="index.html">Home</a></li>
-        <li class="li-class1"> <a href="event_1.html">Events: Day 1</a></li>
-        <li class="li-class1"> <a href="event_2.html">Events: Day 2</a></li>
-        <li class="li-class1"> <a href="schedule.html">Schedule: Pre-Shishir</a></li>
-        <li class="li-class1"> <a href="schedule-main.html">Schedule: Main</a></li>
-        <li class="li-class1"> <a href="#">Teams</a></li>
-        <li class="li-class1"> <a href="#">Contact</a></li>
+      <li id="close" class="li-class1" onclick="undrop()"><a href="#">Close</a></li>
+      <li class="li-class1"> <a href="index.html">Home</a></li>
+      <li class="li-class1"> <a href="event_1.html">Events: Day 1</a></li>
+      <li class="li-class1"> <a href="event_2.html">Events: Day 2</a></li>
+      <li class="li-class1"> <a href="schedule.html">Schedule: Pre-Shishir</a></li>
+      <li class="li-class1"> <a href="schedule-main.html">Schedule: Main</a></li>
+      <li class="li-class1"> <a href="#">Teams</a></li>
+      <li class="li-class1"> <a href="#">Contact</a></li>
 
     </ul>
-</div>
+  </div>
   <h1>Events: Day 1</h1>
   <div class="container">
     <div class="k-container">
       <div id="E0" class="k-body" onclick="openmod(0)">
-        <h2>KRIGG</h2>
-        <p class="k-content">
-          <!-- Keep KRIGG content body here (NOT THE TABLE)-->&nbsp &nbsp
-          Krigg is an departmental event. This event brings to you the war between the departments on online events,
-          gaming, rangoli etc.
-          <ul class="list">
-            <li>Each event has some points associated to it.</li>
-            <li>The department which wins that event will get those points.</li>
-            <li>The department with highest points will lift the KRIGG trophy.</li>
-          </ul>
-        </p>
+        <h2>K<br>R<br>I<br>G<br>G</h2>
       </div>
       <div id="E1" class="k-part" onclick="openmod(1)">
         <h3>
@@ -103,7 +93,7 @@
       </div>
       <div id="E8" class="k-part" onclick="openmod(8)">
         <h3>
-          Profile Visitrory
+          Gaming
         </h3>
       </div>
     </div>
@@ -125,7 +115,16 @@
     <div id="C0" class="modal-content">
       <span class="close">&times;</span>
       <h2>KRIGG</h2>
-      <p> &nbsp &nbsp <strong>Points distribution are as follows:</strong></p>
+      <p> &nbsp &nbsp
+        Krigg is an departmental event. This event brings to you the war between the departments on online events,
+        gaming, rangoli etc.
+        <ul class="list">
+          <li>Each event has some points associated to it.</li>
+          <li>The department which wins that event will get those points.</li>
+          <li>The department with highest points will lift the KRIGG trophy.</li>
+        </ul>
+      </p><br>
+      <p> <strong>Points distribution are as follows:</strong></p>
       <table class="table">
         <tr>
           <th class="tab">SL NO</th>
@@ -410,7 +409,7 @@
     <div class="modal-content">
       <span class="close">&times;</span>
       <h2>Meme Design
-      </h2
+      </h2>
       <h3>Rules and guidlines</h3>
       <ol>
         <li> Please keep a good resolution in your submissions(JPEG, JPG formats onllu). </li>
@@ -468,11 +467,40 @@
     </div>
   </div>
   <div id="M8" class="modal">
-    <div class="modal-content">
+    <div id="C8" class="modal-content">
       <span class="close">&times;</span>
-      <h2>
+      <h2>Gaming
       </h2>
       <p>
+        Shishir’s most fun and competitive event, Lan Gaming is here with exciting games to show your skills. Gear up
+        and compete against other branches and claim the victory.
+        <br>
+        <h4>Games:</h4> CSGO, PUBG(squad), and NFS.
+        <br>
+        <h3>Rules and guidelines:</h3>
+        <ol>
+          <li> CSGO and PUBG will have two teams(Team A and Team B) from each branch.</li>
+          <li> Each team or players must bring their own gaming gears (or use the provided one).</li>
+          <li> Issues like crossing time limits, usage of abusive language, failed to be present at the venue mentioned
+            in time will lead to disqualification.</li>
+          <li> The organizers have right to disqualify a team incase of any misbehaviour or failed to follow the
+            instructions.</li>
+          <li> If there are any changes in the team then the team will need to be informed well beforehand.</li>
+          <li> PUBG will have maximum four squads from each branch. </li>
+        </ol>
+        <h3>CSGO Rules</h3>
+        <ol>
+          <li>The maps will be chosen through a pick and ban phase.</li>
+          <li>The CT or T side will be chosen with a ‘knife round’, the team that wins will choose the side.</li>
+          <li>The teams will need to go through group stages to reach the final.</li>
+          <li>The group stages will be a best of one (bo1) match.</li>
+          <li> The finals will a best of 3 (bo3) match.</li>
+        </ol>
+        <h3>PUBG(Squad)</h3>
+        <ol>
+          <li> The map will be Erangel.</li>
+          <li> The Fixtures will be decided during the event itself.</li>
+        </ol>
       </p>
     </div>
   </div>

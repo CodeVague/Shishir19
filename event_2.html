@@ -39,7 +39,7 @@
 
 <div id="drop-menu">
     <ul class="ul-class1">
-        <li class="li-class1" onclick = "undrop()"><a href="#">Close</a></li>
+        <li id = "close" class="li-class1" onclick = "undrop()"><a href="#">Close</a></li>
         <li class="li-class1"> <a href="index.html">Home</a></li>
         <li class="li-class1"> <a href="event_1.html">Events: Day 1</a></li>
         <li class="li-class1"> <a href="event_2.html">Events: Day 2</a></li>
@@ -54,61 +54,49 @@
   <div class="container">
     <div class="f-container">
       <div id="X0" class="f-body" onclick="openmod2(0)">
-        <h2 id="f-head">FUN EVENTS</h2>
+        <h2 id="f-head">F<br>U<br>N<br><br>E<br>V<br>E<br>N<br>T<br>S</h2>
       </div>
       <div id="X1" class="f-part" onclick="openmod2(1)">
-        <!-- Keep ONLY the names of FUN events -->
         <h2>Housie
         </h2>
       </div>
       <div id="X2" class="f-part" onclick="openmod2(2)">
-        <!-- Keep ONLY the names of FUN events -->
         <h2>Jenga Game
         </h2>
       </div>
       <div id="X3" class="f-part" onclick="openmod2(3)">
-        <!-- Keep ONLY the names of FUN events -->
         <h2>Mawkynting-Mawpeh
         </h2>
       </div>
     </div>
+    
     <div id="X4" class="fpart1" onclick="openmod2(4)">
-      <!-- Put ONLY the names of the other events from Day 2 here(besides Fun Events) -->
       <h2>EBSB Events
       </h2>
     </div>
     <div id="X5" class="fpart" onclick="openmod2(5)">
-      <!-- Put ONLY the names of the other events from Day 2 here(besides Fun Events) -->
       <h2>Food Festival
       </h2>
     </div>
     <div id="X6" class="fpart1" onclick="openmod2(6)">
-      <!-- Put ONLY the names of the other events from Day 2 here(besides Fun Events) -->
       <h2>Magic Show
       </h2>
     </div>
     <div id="X7" class="fpart" onclick="openmod2(7)">
-      <!-- Put ONLY the names of the other events from Day 2 here(besides Fun Events) -->
       <h2>Panache
       </h2>
     </div>
     <div id="X8" class="fpart1" onclick="openmod2(8)">
-      <!-- Put ONLY the names of the other events from Day 2 here(besides Fun Events) -->
       <h2>Pronight
       </h2>
     </div>
   </div>
 
 
-  <!-- ATTENTION ATTENTION ATTENTION ATTENTION -->
-  <!-- MATCH the X(1,2,3...) ids WITH the MM(1,2,3...) ids -->
-
-
   <div id="MM0" class="mmodal">
     <div id="CC0" class="modal-content">
       <span class="close">&times;</span>
       <h2>FUN EVENTS</h2>
-      <!-- PUT FUN EVENTS DESCRIPTION HERE -->
 
       <p> &nbsp &nbsp Beating a game is a journey. Therein lies the fun.Are you one of those who think gaming is their
         DNA? Do you get
@@ -124,10 +112,10 @@
     <div id="CC1" class="modal-content">
       <span class="close">&times;</span>
       <h2>
-        <!-- Keep event's HEADING HERE -->Housie
+        Housie
       </h2>
       <p>
-        <!-- Keep corresponding FUN event's CONTENT HERE -->&nbsp &nbsp Housie is a game of probability in which
+        &nbsp &nbsp Housie is a game of probability in which
         players mark off numbers on
         cards as the numbers are drawn randomly by a caller, the winner being the first person to mark off all their
         numbers.
@@ -188,7 +176,7 @@
         <!-- Keep event's HEADING HERE -->Jenga Game
       </h2>
       <p>
-        <!-- Keep corresponding FUN event's CONTENT HERE -->&nbsp &nbsp
+        &nbsp &nbsp
         Jenga is a game of physical skill created by Leslie Scott, and currently marketed by Hasbro. Players take turns
         removing one block at a time from a tower constructed of 54 blocks. Each block removed is then placed on top
         of the tower, creating a progressively taller and more unstable structure.
@@ -225,7 +213,7 @@
         <!-- Keep event's HEADING HERE -->Mawkynting_Mawpeh
       </h2>
       <p>
-        <!-- Keep corresponding FUN event's CONTENT HERE -->&nbsp &nbsp
+        &nbsp &nbsp
         It is one of the oldest and most played traditional Game in Meghalaya especially in khasi community.To play
         five stones game minimum two players are required. Maximum number of players can be of any number, but
         generally
@@ -358,10 +346,10 @@
     <div class="modal-content">
       <span class="close">&times;</span>
       <h2>
-        <!-- Keep event's HEADING HERE -->Food Festival
+        Food Festival
       </h2>
       <p>
-        <!-- Keep corresponding FUN event's CONTENT HERE -->&nbsp &nbsp
+        &nbsp &nbsp
         The Food Festival is an EBSB(Ek Bharat Shreshtha Bharat) event which takes place in SHISHIR(The Annual Cultural
         Fest of NIT MEGHALAYA).
         This event showcases “Food and Cuisine” of Arunachal Pradesh, Uttar Pradesh and Meghalaya. The primary purpose
@@ -400,10 +388,9 @@
     <div class="modal-content">
       <span class="close">&times;</span>
       <h2>
-        <!-- Keep event's HEADING HERE -->Magic Show
+        Magic Show
       </h2>
-      <p>
-        <!-- Keep corresponding FUN event's CONTENT HERE -->&nbsp &nbsp
+      <p>&nbsp &nbsp
         A truly mesmerizing magic show by the magician, who comes from engineering background.
         A performance that will leave you spellbound and enchanted, with the tricks you've never
         seen before! Sorcar puts together several performances into one alluring performance that
@@ -416,10 +403,9 @@
     <div class="modal-content">
       <span class="close">&times;</span>
       <h2>
-        <!-- Keep event's HEADING HERE -->Panache
+        Panache
       </h2>
-      <p>
-        <!-- Keep corresponding FUN event's CONTENT HERE -->&nbsp &nbsp
+      <p>&nbsp &nbsp
         Panache, the fashion night of Shishir, cultural fest of NIT Meghalaya is the event that portrays the diversity
         of India as students of our institute will be showcasing attires of different states of India.
         Also, in this event we will have different rounds in which different seasonal clothes will be showcased.
@@ -432,10 +418,9 @@
     <div class="modal-content">
       <span class="close">&times;</span>
       <h2>
-        <!-- Keep event's HEADING HERE -->Pronight
+        Pronight
       </h2>
       <p> &nbsp &nbsp
-        <!-- Keep corresponding FUN event's CONTENT HERE -->
         Recognized as one of the cities best events, Pronite is a star-studded evening that was annually
         presented in honor of our featured guest.A live musical performances by one of today's brightest stars.
         This power-packed night of excitement not only leaves our audience with unforgettable memories each year but,

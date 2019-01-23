@@ -37,34 +37,17 @@ h1 {font-size:2.4em;}
   padding: 0 1em 1em;
 }
 
-.list{
-  padding:1em;
-  margin :0;
-
-}
-
 .k-body{color:rgb(228, 195, 241);}
  h1{color:rgb(22, 2, 22);text-shadow: 1px 1px rgb(34, 34, 34);}
-.k-part{
-  width:18%;
-  border-radius:50%;
-  height:13em;
-  margin: 10px;
-  line-height: 10em;
-}
 
-.f-part{
-  width:23%;
-  margin:5% 20px 20px;
-  height:20em;
-  border-radius:50%;
-  line-height:16em;
-}
+.k-part{height:3.5em;border-radius:0;width:80%;display: block; float:left; margin:0; line-height:2em;}
+.f-part{height:9.3em;border-radius:0;width:80%;display: block; float:left; margin:0; line-height:2em;}
 
 .table{background-color:lightblue;
   padding:1em;
 height:25em;}
-.f-body{line-height: 10em;}
+.f-body{line-height: 2.5em;}
+.k-body{line-height: 5em}
 
 .part, .part1, .fpart1, .fpart{
   margin:2em 0;
@@ -105,7 +88,7 @@ ul,li{text-align:left; margin-left:1em;}
 #CC1{height:60em;}
 #CC3{height: 70em;font-size: 1em;} 
 #CC4{height:50em;}
-
+#C8,#C0{height:45em;}
 #E0{background-color: rgb(58, 13, 58);}
 #E1{background-color: rgb(241, 177, 241);}
 #E2{background-color: rgb(217, 181, 238);}
@@ -145,5 +128,5 @@ ul,li{text-align:left; margin-left:1em;}
 .fpart:hover{background-color:rgb(59, 245, 52);}
 .fpart1:hover{background-color:rgb(222, 255, 36);}
 nav{margin:0;}
-.ul-class, .d-items {background-color: rgb(0, 0, 0);}
+.ul-class, .d-items {background-color: rgb(0, 0, 0);opacity:0.85;}
 .li-class:hover, .d-items:hover{background-color: rgb(129, 129, 129);}

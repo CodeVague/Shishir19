@@ -7,7 +7,7 @@ body{
     padding:0;
 }
 
-.ul-class{background-color:black;}   
+.ul-class{background-color:black; opacity:0.75;}   
 
 .li-class:hover{
     background-color:rgb(48, 48, 48);
