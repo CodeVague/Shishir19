@@ -33,9 +33,7 @@ h1 {font-size:2.4em;}
   background-color:rgb(203, 252, 255);
 }
 
-.k-content{
-  padding: 0 1em 1em;
-}
+.k-content{padding: 0 1em 1em;}
 
 .k-body{color:rgb(228, 195, 241);}
  h1{color:rgb(22, 2, 22);text-shadow: 1px 1px rgb(34, 34, 34);}
@@ -93,20 +91,20 @@ ul,li{text-align:left; margin-left:1em;}
 #E2{background-color: rgb(217, 181, 238);}
 #E3{background-color: rgb(206, 188, 241);}
 #E4{background-color: rgb(187, 192, 236);}
-#E5{background-color: rgb(237, 253, 165);}
-#E6{background-color: rgb(255, 223, 174);}
-#E7{background-color: rgb(243, 201, 193);}
-#E8{background-color: rgb(225, 236, 158);}
+#E6{background-color: rgb(237, 253, 165);}
+#E7{background-color: rgb(255, 223, 174);}
+#E8{background-color: rgb(243, 201, 193);}
+#E5{background-color: rgb(225, 236, 158);}
 .part{background-color:rgb(243, 166, 166);}
 #E0:hover{background-color: rgb(96, 8, 99);}
-#E1:hover{background-color: rgb(110, 21, 145);}
+#E1:hover{background-color: rgb(7, 30, 136);}
 #E2:hover{background-color: rgb(171, 38, 248);}
 #E3:hover{background-color: rgb(103, 49, 209);}
 #E4:hover{background-color: rgb(55, 73, 235);}
 #E5:hover{background-color: rgb(154, 255, 59);}
-#E6:hover{background-color: rgb(250, 180, 76);}
-#E7:hover{background-color: rgb(238, 126, 51);}
-#E8:hover{background-color: rgb(253, 237, 17);}
+#E7:hover{background-color: rgb(245, 164, 43);}
+#E8:hover{background-color: rgb(255, 35, 6);}
+#E6:hover{background-color: rgb(253, 237, 17);}
 .part:hover{background-color:rgb(247, 34, 34);}
 .part1:hover{background-color:rgb(18, 245, 245);}
 .modal-content{

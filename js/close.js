@@ -1,13 +1,13 @@
 var modal = document.getElementsByClassName("modal");
 var mmodal = document.getElementsByClassName("mmodal");
 
-function close() {
+function closing() {
   for (var k = 0; k < modal.length; ++k) {
     modal[k].style.display = "none";
   }
 }
 for (var i = 0; i < modal.length; ++i) {
-  modal[i].addEventListener('click', close, false);
+  modal[i].addEventListener('click', closing, false);
 }
 
 function close2() {
