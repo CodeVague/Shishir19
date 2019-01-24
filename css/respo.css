@@ -17,10 +17,8 @@
     #social h2{margin:0;}
     #foo_ter{position: relative;left: 0;bottom: 0;width: 100%;overflow: hidden;}    
     .k-body{overflow: hidden;}
-    .part,.part1{height:3.5em;border-radius:0;width:100%;display: block; float:left; margin:0; line-height:2em;}
-    .fpart, .fpart1{line-height:4em;}
+    .part, .part1, .fpart, .fpart1{height:3.5em;border-radius:0;width:100%;display: block; float:left; margin:0; line-height:2em;}
     .modal-content,#C3,#C4,#C8,#C10,#C11,#C12,#C0{height:100em;}
-
 }
 
 @media screen and (max-width:800px){
