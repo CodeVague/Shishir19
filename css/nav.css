@@ -1,6 +1,6 @@
 .ul-class{
     list-style-type: none;
-    background-color: rgb(19, 6, 6);
+    background-color: rgb(29, 9, 9);
     padding:0 10px;
     height:75px;
     margin:0;
@@ -68,12 +68,9 @@
     overflow: hidden;
 }
 
-#menu{display:none;}
+#close, #menu{display:none;}
 #drop-menu{
     display:none;
     height:500px;
     width:100%;
-}
-#close{
-    background-color:black; 
 }
