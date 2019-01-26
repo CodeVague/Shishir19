@@ -1,0 +1,36 @@
+.circle{
+    width:300px;
+    height:300px;
+    border-radius: 100%;
+    float:left;
+    margin:20px;
+    position: relative;
+}
+.web{
+    background-color: antiquewhite;
+    
+    
+}
+.app{
+    background-color: orange;
+}
+.krigz{
+    background-color: blueviolet;
+}
+.event-management{
+    background-color: plum;
+}
+.dramatics{
+    background-color: aqua;
+}
+.content{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top:47%;
+    text-align: center;
+    font-family: cursive;
+    font-size: 25px;
+    color:black;
+}
+ 
