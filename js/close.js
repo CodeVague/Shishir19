@@ -3,7 +3,8 @@ var mmodal = document.getElementsByClassName("mmodal");
 
 function closing() {
   for (var k = 0; k < modal.length; ++k) {
-    modal[k].style.display = "none";
+    modal[k].style.top = "90%";
+    modal[k].style.height = "0";
   }
 }
 for (var i = 0; i < modal.length; ++i) {
@@ -12,7 +13,8 @@ for (var i = 0; i < modal.length; ++i) {
 
 function close2() {
   for (var o = 0; o < mmodal.length; ++o) {
-    mmodal[o].style.display = "none";
+    mmodal[o].style.top = "90%";
+    mmodal[o].style.height = "0";
   }
 }
 for (var x = 0; x < mmodal.length; ++x) {

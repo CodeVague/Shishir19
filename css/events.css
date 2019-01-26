@@ -59,15 +59,16 @@ height:25em;}
 .fpart, .fpart1{width:20%; font-size:1.4em;}
 
 .modal, .mmodal{
+  display:block;
   position:fixed;
   z-index: 1;
   left:0;
-  top:0;
-  height:100%;
+  top:90%;
+  height:0;
   width:100%;
   background-color: rgba(68, 68, 68, 0.384);
   overflow: auto;
-  display:none;
+  transition: 0.25s ease-in;
 }
 
 .modal-content{
@@ -107,8 +108,7 @@ ul,li{text-align:left; margin-left:1em;}
 #E6:hover{background-color: rgb(253, 237, 17);}
 .part:hover{background-color:rgb(247, 34, 34);}
 .part1:hover{background-color:rgb(18, 245, 245);}
-.modal-content{
-  background-image:linear-gradient(to bottom right, rgb(146, 243, 250),rgb(151, 243, 248),rgb(213, 247, 255));}
+.modal-content{background-color : rgb(228, 228, 228);}
 #C0{background-image:linear-gradient(to bottom right, rgb(66, 84, 163),rgb(154, 173, 255),rgb(255, 231, 231));}
 #X0{background-color: rgb(26, 167, 172);}
 #X1{background-color: rgb(107, 235, 235);}
