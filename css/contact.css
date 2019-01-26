@@ -1,0 +1,45 @@
+h3,body, ul, nav{margin:0;padding:0;}
+
+h1{
+    text-align:center;
+    font-size: 2.5em;
+}
+
+.con-container{display:block; height:30em;}
+.cover{
+    display:block;
+    width:50%;
+    float:left;
+    margin : 5em 0 0 0;
+    padding:0;
+}
+
+.cards{
+    display:block;
+    width:50%;
+    margin : 0 auto;
+    height:27em;
+    border: 2px solid;
+}
+
+img{
+    height:15em;
+    width:100%;
+}
+
+span{
+    display:block;
+    margin:2em;
+}
+
+.faded{
+    color:rgb(126, 126, 126);
+    font-weight: lighter;
+}
+
+.c-foot{
+    display:block;
+    position:relative;
+    padding:1em;
+    margin:3em 0 0 0;
+}
