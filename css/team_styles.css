@@ -1,29 +1,42 @@
-.circle{
-    width:300px;
-    height:300px;
-    border-radius: 100%;
-    float:left;
-    margin:20px;
-    position: relative;
-    background-color: rgb(235, 194, 235);
-    
+body{
+    padding:0;
+    margin:0;
+    background-color: rgb(255, 234, 234);
 }
+
+.team-container{
+    display:block;
+    margin: 0 auto;
+    width:100%;
+    height:55em;
+}
+
+.teams{
+    display:block;
+    margin: 0 auto;
+    width:80%;
+    height:55em;
+}
+
+.circle{
+    display:block;
+    width:30%;
+    height:10em;
+    border-radius: 50%;
+    float:left;
+    margin:1%;
+    background-color: rgb(195, 157, 230);
+}
+
 .content{
      text-align: center;
     font-family: cursive;
     font-size: 25px;
     color:black;
 }
- h1{
-     text-align: center;
- }
- body{
-     background-image: linear-gradient(to right,rgb(52, 45, 90),rgb(133, 126, 172));
- }
-.teams{
-    margin-left: 5%;
-}
-.circle a{
-    margin-top: 40%;
-}
+
+ h1{text-align: center;margin-top:5%;font-size:2em;}
+
+.circle a{margin-top: 40%;}
+#weba{margin-top:35%;}
  
