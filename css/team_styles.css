@@ -26,6 +26,11 @@ body{
     float:left;
     margin:1%;
     background-color: rgb(195, 157, 230);
+    -webkit-transition: background-color 1s ease 0s;
+    transition: background-color 1s ease 0s;
+}
+.circle:hover{
+    background-color:rgb(137, 72, 153); 
 }
 
 .content{
