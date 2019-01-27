@@ -9,8 +9,7 @@
     
 }
 .content{
-    padding-top:40%;
-    text-align: center;
+     text-align: center;
     font-family: cursive;
     font-size: 25px;
     color:black;
@@ -23,5 +22,8 @@
  }
 .teams{
     margin-left: 5%;
+}
+.circle a{
+    margin-top: 40%;
 }
  
