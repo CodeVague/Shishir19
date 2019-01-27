@@ -6,7 +6,11 @@
     margin:20px;
     position: relative;
     background-color: rgb(235, 194, 235);
-    
+    -webkit-transition: background-color 1s ease 0s;
+    transition: background-color 1s ease 0s;
+}
+.circle:hover{
+    background-color:rgb(137, 72, 153); 
 }
 .content{
      text-align: center;
