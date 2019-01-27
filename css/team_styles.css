@@ -1,0 +1,27 @@
+.circle{
+    width:300px;
+    height:300px;
+    border-radius: 100%;
+    float:left;
+    margin:20px;
+    position: relative;
+    background-color: rgb(235, 194, 235);
+    
+}
+.content{
+    padding-top:40%;
+    text-align: center;
+    font-family: cursive;
+    font-size: 25px;
+    color:black;
+}
+ h1{
+     text-align: center;
+ }
+ body{
+     background-image: linear-gradient(to right,rgb(52, 45, 90),rgb(133, 126, 172));
+ }
+.teams{
+    margin-left: 5%;
+}
+ 
