@@ -98,7 +98,7 @@ body{
     font-size:1.6em;
     color:rgb(235, 211, 255);
     text-shadow:rgb(27, 1, 43) 4px 3px;
-    background-image:linear-gradient(to bottom right, rgb(38, 8, 71),rgb(43, 13, 82),rgb(27, 4, 53));
+    background-image:linear-gradient(to bottom right, rgb(32, 8, 71),rgb(22, 5, 53),rgb(27, 4, 53));
     box-shadow: 3px 3px 3px 3px rgb(13, 2, 27);
 }
 
