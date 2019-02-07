@@ -79,7 +79,9 @@ height:25em;}
   width:60%;
   background-color:#fff;
 }
-
+.ul-class, .d-items{background-color:rgb(31, 31, 31);}
+.ul-class1{background-color:rgb(37, 37, 37);}
+.li-class1:hover, .li-class:hover, .d-items:hover{background-color: rgb(49, 49, 49)}
 ul,li{text-align:left; margin-left:1em;}
 .tab, tr{padding: 1.4em;background-color: lightcyan;}
 #C12{ width:50%;}
@@ -125,5 +127,3 @@ ul,li{text-align:left; margin-left:1em;}
 .fpart:hover{background-color:rgb(59, 245, 52);}
 .fpart1:hover{background-color:rgb(222, 255, 36);}
 nav{margin:0;}
-.ul-class, .d-items {background-color: rgb(0, 0, 0);opacity:0.85;}
-.li-class:hover, .d-items:hover{background-color: rgb(129, 129, 129);}

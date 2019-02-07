@@ -52,6 +52,9 @@ th{
     text-shadow: rgb(18, 18, 88) 2px 2px;
 }
 
-.li-class:hover,.d-items:hover{
+.li-class:hover,.d-items:hover,.li-class1:hover{
     background-color: rgb(9, 21, 59);
   }
+
+
+.ul-class1{background-color:rgb(11, 12, 29);}
