@@ -26,7 +26,22 @@ body{
     padding : 2.5em;
 }
 #web-team{height:25em;
-    padding : 2.5em;}
+    padding : 2.5em;
+    background-image: linear-gradient(to bottom left, rgb(89, 101, 107), rgb(51, 64, 138), rgb(92, 173, 179));
+    text-align: center;
+}
+.web-t{
+    padding-top: 40px;
+    width: 16.66%;
+    overflow: hidden;
+    float: left;
+}
+.w-pic{
+    
+    border-radius: 50%;
+    width:90%;
+    height:200px;
+}
 
 #about-container, #event-container, #celeb-container,#web-team{
     width:90%;
@@ -34,7 +49,7 @@ body{
 #about-container{background-image: linear-gradient(to bottom right, rgb(5, 1, 17), rgb(43, 2, 2), rgb(8, 4, 14));}
 #event-container{background-image: linear-gradient(to bottom right,  rgb(8, 1, 36), rgb(12, 2, 39), rgb(11, 2, 26));}
 #celeb-container{background-image: linear-gradient(to bottom left, rgb(5, 1, 17), rgb(29, 0, 48), rgb(27, 1, 39));}
-#web-team{background-color: white;}
+
 
 #about-content, .event-content{
     margin: 5px auto;
@@ -175,3 +190,4 @@ h2, #social, .c, .fa{color:white;}
 }
 .fa:hover {opacity: 0.7;}
 .copyright{width:33%;margin-top:5em;}
+
