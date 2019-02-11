@@ -9,8 +9,6 @@
     #about-content, .event-content{font-size:0.8em;}
     .heading2{margin:0.2em;font-size:1em;}
     .card{height:12em;width:100%;margin:0;}
-    #btn{display:flex;height:3em;position:relative;}
-    #btn-more{font-size:1.2em;}
     .c-content p{font-size:0.75em;}
     .map iframe, .copyright div, .copyright, nav{width:100%;}
     .icon{margin:0;float:left;width:100%;}

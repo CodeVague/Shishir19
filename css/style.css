@@ -9,7 +9,7 @@ html,body{overflow-x: hidden; }
 #about-container, #event-container, #celeb-container, .c-content, .soon, #social,.copyright, #web-team, #btn-more {margin : 0 auto;}
 .card, .cel, #footer_img_div, #contact-details, .fa-facebook, .fa-instagram, .fa-youtube {float:left;}
 .nitm-logo, .shishir_logo{float:right;}
-.heading, .heading2, .soon, .c-content, h2,#social, .c, .fa, .copyright, #about-content {text-align:center;}
+.heading, #celeb-heading, .heading2, .soon, .c-content, h2,#social, .c, .fa, .copyright, #about-content {text-align:center;}
 html, body,#div-one,  .main-cel, .c-pic, #foo_ter {width: 100%;}
 html{height:100%;}
 body{
@@ -82,7 +82,7 @@ body{
     padding: 5px 0 0 0;
 }
 
-.heading, .heading2{margin:1.5em;}
+.heading, .heading2, #celeb-heading{margin:1.5em;}
 #e-head{color:rgb(221, 194, 243);}
 
 .heading{
@@ -94,6 +94,13 @@ body{
 .heading2{
     color:rgb(205, 176, 230);
     text-shadow:rgb(18, 1, 27) 3px 3px;
+}
+
+#celeb-heading{
+    font-size:2.6em;
+    color: rgb(250, 198, 250);
+    text-shadow: 2px 2px rgb(49, 10, 83); 
+    margin:0 0 1.5em;      
 }
 
 .soon{
