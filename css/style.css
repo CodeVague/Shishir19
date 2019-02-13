@@ -29,7 +29,7 @@ body{
 #web-team{
     height:25em;
     padding : 2.5em;
-    background-image: linear-gradient(to bottom right, rgb(56, 15, 66), rgba(40, 5, 56, 0.95), rgb(71, 29, 61));
+    background-image: linear-gradient(to bottom right, rgb(37, 15, 66), rgba(3, 23, 41, 0.95), rgb(42, 29, 71));
 }
 
 h4{
@@ -57,9 +57,9 @@ h4{
 #about-container, #event-container, #celeb-container,#web-team{
     width:90%;
 }
-#about-container{background-image: linear-gradient(to bottom right, rgb(5, 1, 17), rgba(43, 2, 2,0.95), rgb(8, 4, 14));}
-#event-container{background-image: linear-gradient(to bottom right,  rgb(8, 1, 36), rgba(12, 2, 39,0.95), rgb(11, 2, 26));}
-#celeb-container{background-image: linear-gradient(to bottom left, rgb(5, 1, 17), rgba(29, 0, 48,0.95), rgb(27, 1, 39));}
+#about-container{background-image: linear-gradient(to bottom right, rgb(5, 1, 17), rgba(80, 5, 5, 0.95), rgb(4, 1, 8));}
+#event-container{background-image: linear-gradient(to bottom right,  rgb(8, 3, 26), rgba(21, 4, 66, 0.95), rgb(11, 2, 26));}
+#celeb-container{background-image: linear-gradient(to bottom left, rgb(21, 1, 31), rgba(38, 1, 63, 0.95), rgb(27, 1, 39));}
 
 
 #about-content, .event-content{
