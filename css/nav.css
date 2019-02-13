@@ -1,6 +1,6 @@
 .ul-class{
     list-style-type: none;
-    background-color: rgb(29, 9, 9);
+    background-color: rgb(14, 4, 4);
     padding:0 10px;
     height:75px;
     margin:0;
@@ -12,7 +12,7 @@
 
 .li-class, a, .drop-inner{
     display: block;
-    color: rgba(243, 234, 234, 0.829);
+    color:#fff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;

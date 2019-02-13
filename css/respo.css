@@ -5,11 +5,10 @@
     .logo{width:5em;}
     .li-logo a, .li-logo, .li-logo a img{height:60px;}
     .ul-class{height:60px;}
-    #about-container, #event-container, #celeb-container{padding:0;}
+    #about-container, #event-container, #celeb-container, #web-team{padding:0;}
     #about-content, .event-content{font-size:0.8em;}
     .heading2{margin:0.2em;font-size:1em;}
     .card{height:12em;width:100%;margin:0;}
-    #btn{display:flex;height:3em;float:right;position:relative;}
     .c-content p{font-size:0.75em;}
     .map iframe, .copyright div, .copyright, nav{width:100%;}
     .icon{margin:0;float:left;width:100%;}
@@ -17,6 +16,13 @@
     #social h2{margin:0;}
     #foo_ter{position: relative;left: 0;bottom: 0;width: 100%;overflow: hidden;}    
     .k-body{overflow: hidden;}
+    .no-cel{display:none;}
+    .cel{width:33%;}
+    #web-team{height:50em;}
+    .web-t{width:33%;}
+    #web-heading{padding-top:1em;}
+    .w-pic{border-radius:0;width:100%;}
+    #e-head{margin-top:0;padding-top:0.5em;}
     .part, .part1, .fpart, .fpart1{height:3.5em;border-radius:0;width:100%;display: block; float:left; margin:0; line-height:2em;}
     .modal-content,#C3,#C4,#C8,#C10,#C11,#C12,#C0{height:100em;}
 }

@@ -80,13 +80,26 @@ height:25em;}
   background-color:#fff;
 }
 
-ul,li{text-align:left; margin-left:1em;}
+.modal-top{display:block;
+  width:100%; 
+  box-sizing: border-box;
+  height:5em;
+  padding-top:0.5em; 
+  margin-top:2em;
+  background:rgb(36, 36, 36); 
+  color:#fff;
+}
+
+.list, .list li{text-align:left; margin-left:1em;}  
+.ul-class, .d-items{background-color:rgb(31, 31, 31);}
+.ul-class1{background-color:rgb(37, 37, 37);}
+.li-class1:hover, .li-class:hover, .d-items:hover{background-color: rgb(49, 49, 49)}
 .tab, tr{padding: 1.4em;background-color: lightcyan;}
 #C12{ width:50%;}
 #CC1{height:60em;}
 #CC3{height: 70em;font-size: 1em;} 
 #CC4{height:50em;}
-#C8,#C0{height:45em;}
+#C8,#C0,#CC5{height:45em;}
 #E0{background-color: rgb(58, 13, 58);}
 #E1{background-color: rgb(241, 177, 241);}
 #E2{background-color: rgb(217, 181, 238);}
@@ -108,7 +121,6 @@ ul,li{text-align:left; margin-left:1em;}
 #E6:hover{background-color: rgb(253, 237, 17);}
 .part:hover{background-color:rgb(247, 34, 34);}
 .part1:hover{background-color:rgb(18, 245, 245);}
-.modal-content{background-color : rgb(228, 228, 228);}
 #C0{background-image:linear-gradient(to bottom right, rgb(66, 84, 163),rgb(154, 173, 255),rgb(255, 231, 231));}
 #X0{background-color: rgb(26, 167, 172);}
 #X1{background-color: rgb(107, 235, 235);}
@@ -125,5 +137,3 @@ ul,li{text-align:left; margin-left:1em;}
 .fpart:hover{background-color:rgb(59, 245, 52);}
 .fpart1:hover{background-color:rgb(222, 255, 36);}
 nav{margin:0;}
-.ul-class, .d-items {background-color: rgb(0, 0, 0);opacity:0.85;}
-.li-class:hover, .d-items:hover{background-color: rgb(129, 129, 129);}

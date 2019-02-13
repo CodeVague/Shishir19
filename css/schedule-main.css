@@ -7,11 +7,9 @@ body{
     padding:0;
 }
 
-.ul-class{background-color:black; opacity:0.75;}   
-
-.li-class:hover{
-    background-color:rgb(48, 48, 48);
-}
+.ul-class,.d-items{background-color:black; opacity:0.85;}   
+.ul-class1{background-color:rgb(10, 10, 10); opacity:0.9;}   
+.li-class:hover,.li-class1:hover, .d-items:hover{background-color:rgb(22, 22, 22);}
 
 body, nav, .ul-class, .container{
     margin:0;
@@ -37,6 +35,7 @@ h1{
     height:550px;
     width:100%;
     padding:0;
+    margin-bottom:3em;
 }
 
 .contents{
