@@ -161,13 +161,13 @@ h4{
 }
 
 .nitm-logo{
-    margin:1.6em;
+    margin:2.4em 1.6em 1.6em;
     width: 5em;
     height: 5em;
 }
 
 .shishir_logo{
-    margin:1.6em;
+    margin:2.4em 1.6em 1.6em;
     height:5em;
     width: 6.25em;
 }
@@ -184,7 +184,7 @@ h2, #social, .c, .fa{color:white;}
 
 
 #contact-details{
-    margin: 5em 0;
+    margin: 4.5em 0;
     padding: 0.6em;
     width:33%;
 }
