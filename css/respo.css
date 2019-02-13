@@ -24,7 +24,6 @@
     .w-pic{border-radius:0;width:100%;}
     #e-head{margin-top:0;padding-top:0.5em;}
     .part, .part1, .fpart, .fpart1{height:3.5em;border-radius:0;width:100%;display: block; float:left; margin:0; line-height:2em;}
-    .modal-content,#C3,#C4,#C8,#C10,#C11,#C12,#C0{height:100em;}
 }
 
 @media screen and (max-width:800px){
