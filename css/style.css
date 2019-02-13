@@ -32,7 +32,7 @@ body{
 }
 .web-t{
     padding-top: 40px;
-    width: 16.66%;
+    width: 14.28%;
     overflow: hidden;
     float: left;
 }
@@ -40,6 +40,7 @@ body{
     
     border-radius: 50%;
     width:90%;
+    
     height:200px;
 }
 
