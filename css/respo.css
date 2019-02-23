@@ -18,7 +18,7 @@
     .k-body{overflow: hidden;}
     .no-cel{display:none;}
     .cel{width:33%;}
-    #web-team{height:55em;}
+    #web-team{height:40em;}
     .web-t{width:25%;}
     .w-rnk p{font-size:0.75em;}
     .w-rnk h4{font-size:0.75em;}
@@ -26,6 +26,9 @@
     .w-pic{border-radius:0;width:100%;}
     #e-head{margin-top:0;padding-top:0.5em;}
     .part, .part1, .fpart, .fpart1{height:3.5em;border-radius:0;width:100%;display: block; float:left; margin:0; line-height:2em;}
+    .modal-content{padding: 0 0 1em 0;width:90%;}
+    .w-pic{height:5em;margin:0;}
+    .c-pic{height:8em;}
 }
 
 @media screen and (max-width:800px){

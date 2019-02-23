@@ -79,3 +79,11 @@ h1{
     overflow:hidden;
     color: rgb(146, 7, 7);
 }
+
+@media screen and (max-width:800px){
+    .t-content{
+        font-size:0.75em;
+    }
+    .lunch{font-size:0.8em;width:10%;}
+    .tcard{width:29%;}
+}
