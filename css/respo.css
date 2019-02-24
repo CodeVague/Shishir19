@@ -27,8 +27,8 @@
     #e-head{margin-top:0;padding-top:0.5em;}
     .part, .part1, .fpart, .fpart1{height:3.5em;border-radius:0;width:100%;display: block; float:left; margin:0; line-height:2em;}
     .modal-content{padding: 0 0 1em 0;width:90%;}
-    .w-pic{height:5em;margin:0;}
-    .c-pic{height:8em;}
+    .w-pic{height:9em;margin:0;}
+    .c-pic{height:9em;}
 }
 
 @media screen and (max-width:800px){
@@ -41,7 +41,8 @@
     background-size: cover;
     background-attachment: fixed;
     overflow-x: hidden;
-}
+    }
+
 .li-class{display:none;}
 #menu{display:block;}
 }
@@ -56,6 +57,8 @@
     background-size: cover;
     overflow-x: hidden;
 }
+.w-pic{height:5em;margin:0;}
+.c-pic{height:8em;}
 .li-class{display:none;}
 #menu{display:block;}
 
