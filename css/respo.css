@@ -5,7 +5,7 @@
     .logo{width:5em;}
     .li-logo a, .li-logo, .li-logo a img{height:60px;}
     .ul-class{height:60px;}
-    #about-container, #event-container, #celeb-container, #web-team{padding:0;width:100%;}
+    #about-container, #event-container, #celeb-container, #web-team{padding:1em 0 0 0;width:100%;}
     #about-content, .event-content{font-size:0.8em;}
     .heading2{margin:0.2em;font-size:1em;}
     .card{height:12em;width:100%;margin:0;}
