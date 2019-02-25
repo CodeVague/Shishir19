@@ -32,31 +32,19 @@
 }
 
 @media screen and (max-width:800px){
-    #body{
-    width:100%;
-    height:100%;
-    position:relative;
-    background: url('../img/Shishir-med.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    overflow-x: hidden;
+    #fixed-bg-wide{
+        display:none;
     }
+    #fixed-bg-medium{display: block;}
 
 .li-class{display:none;}
 #menu{display:block;}
 }
 
 @media screen and (max-width:500px){
-    #body{
-    width:100%;
-    height:100%;
-    background: url('../img/Shishir-small.png');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow-x: hidden;
-}
+    #fixed-bg-medium{display:none;}
+    #fixed-bg-small{display:block;}
+    
 .w-pic{height:5em;margin:0;}
 .c-pic{height:8em;}
 .li-class{display:none;}
