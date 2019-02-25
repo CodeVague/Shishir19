@@ -31,17 +31,7 @@
     .c-pic{height:9em;}
 }
 
-@media screen and (max-width:800px){
-    #fixed-bg-wide{
-        display:none;
-    }
-    #fixed-bg-medium{display: block;}
-
-.li-class{display:none;}
-#menu{display:block;}
-}
-
-@media screen and (max-width:500px){
+@media screen and (max-width:550px){
     #fixed-bg-medium{display:none;}
     #fixed-bg-small{display:block;}
     

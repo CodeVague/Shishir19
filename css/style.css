@@ -3,7 +3,6 @@
     margin:0;
     padding:0;
 }
-html,body{overflow-x: hidden; }
 #about-container, #web-team, #event-container, #celeb-container, #button, .c-content, .soon, .cel, .main-cel, .c-pic
 , #contact-details, #footer_img_div, .icon, #social,.copyright,#about-content, .event-content, #btn {display:block;}
 #about-container, #event-container, #celeb-container, .c-content, .soon, #social,.copyright, #web-team, #btn-more {margin : 0 auto;}
@@ -12,16 +11,9 @@ html,body{overflow-x: hidden; }
 .heading, #celeb-heading, .heading2, .soon, .c-content, h2,#social, .c, .fa, .copyright, #about-content {text-align:center;}
 html, body,#div-one,  .main-cel, .c-pic, #foo_ter {width: 100%;}
 html{height:100%;}
-body{
-    height:100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow-x: hidden;
-}
 
 #fixed-bg-wide, #fixed-bg-small, #fixed-bg-medium{
-    height:100vh;
+    height:120vh;
     width:100vw;
     position:fixed;
     z-index: -1;
