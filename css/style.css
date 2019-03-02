@@ -25,16 +25,18 @@ html{height:100%;overflow-x: hidden;}
 }
 
 #about-container{
-    text-align: center;
-    width:550px;
+    text-align: justify;
+    width:580px;
     padding:2.5em;
     height:auto;
     font-size:1.2em;
+    margin-bottom: 1.2em;
 }
 
 #about-container h1{
     font-size: 2em;
     margin-bottom: 1em;
+    text-align:center;
 }
 
 #event-container{
