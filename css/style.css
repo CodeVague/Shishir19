@@ -55,6 +55,7 @@ html{height:100%;overflow-x: hidden;}
     z-index:-1;
     transform: skewY(3deg);
 }
+#event-container h1{text-shadow:3px 3px black;}
 
 #event-content-grid{
     display:grid;
@@ -112,10 +113,11 @@ h4{font-weight: 550;}
 
 
 .card-head{
-    background-color: rgb(61, 25, 102);
+    background-color: rgb(51, 18, 90);
     height:20%;
     padding: 5px 0 0 0;
     margin-bottom:1em;
+    text-shadow: 3px 3px rgb(21, 4, 26);
 }
 
 .heading2, #celeb-heading{margin:1.5em;}
@@ -130,7 +132,7 @@ h4{font-weight: 550;}
 
 #celeb-heading{
     font-size:3em; 
-    margin:0 0 1.5em;      
+    margin:0 0 1.5em; 
 }
 
 .soon{
