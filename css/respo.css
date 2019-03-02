@@ -5,10 +5,14 @@
     .logo{width:5em;}
     .li-logo a, .li-logo, .li-logo a img{height:60px;}
     .ul-class{height:60px;}
-    #about-container, #event-container, #celeb-container, #web-team{padding:1em 0 0 0;width:100%;}
-    #about-content, .event-content{font-size:0.8em;}
+    #about-container, #event-container, #celeb-container{padding:1em 0 0 0;width:100%;}
+    #about-content {font-size:0.8em;}
+    #event-container{margin:1em 0;}
+    #event-content-grid{display:block;
+    width:100%;}
+    .event-content{font-size:0.8em;width: 90%;padding:1em;}
     .heading2{margin:0.2em;font-size:1em;}
-    .card{height:12em;width:100%;margin:0;}
+    .card{height:auto;width:99%;margin-bottom:2em;}
     .c-content p{font-size:0.75em;}
     .map iframe, .copyright div, .copyright, nav{width:100%;}
     .icon{margin:0;float:left;width:100%;}
@@ -18,13 +22,7 @@
     .k-body{overflow: hidden;}
     .no-cel{display:none;}
     .cel{width:33%;}
-    #web-team{height:40em;}
-    .web-t{width:25%;}
-    .w-rnk p{font-size:0.75em;}
-    .w-rnk h4{font-size:0.75em;}
-    #web-heading{padding-top:1em;}
-    .w-pic{border-radius:0;width:100%;}
-    #e-head{margin-top:0;padding-top:0.5em;}
+    #e-head{margin:0.5em;padding:0em;}
     .part, .part1, .fpart, .fpart1{height:3.5em;border-radius:0;width:100%;display: block; float:left; margin:0; line-height:2em;}
     .modal-content{padding: 0 0 1em 0;width:90%;}
     .w-pic{height:9em;margin:0;}
@@ -33,12 +31,11 @@
 
 @media screen and (max-width:550px){
     body{max-width: 550px;}
-    #fixed-bg-medium{display:none;}
+    #fixed-bg-wide{display:none;}
     #fixed-bg-small{display:block;}
     
 .w-pic{height:5em;margin:0;}
 .c-pic{height:8em;}
 .li-class{display:none;}
 #menu{display:block;}
-
 }

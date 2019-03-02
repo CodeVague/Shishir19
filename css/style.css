@@ -1,40 +1,71 @@
 *{
-    color:#fff;
     margin:0;
     padding:0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #about-container, #web-team, #event-container, #celeb-container, #button, .c-content, .soon, .cel, .main-cel, .c-pic
-, #contact-details, #footer_img_div, .icon, #social,.copyright,#about-content, .event-content, #btn {display:block;}
+, #contact-details, #footer_img_div, .icon, #social,.copyrigh, .event-content, #btn {display:block;}
 #about-container, #event-container, #celeb-container, .c-content, .soon, #social,.copyright, #web-team, #btn-more {margin : 0 auto;}
 .card, .cel, #footer_img_div, #contact-details, .fa-facebook, .fa-instagram, .fa-youtube {float:left;}
 .nitm-logo, .shishir_logo{float:right;}
-.heading, #celeb-heading, .heading2, .soon, .c-content, h2,#social, .c, .fa, .copyright, #about-content {text-align:center;}
-html, body,#div-one,  .main-cel, .c-pic, #foo_ter {width: 100%;}
-html{height:100%;}
+.heading, #celeb-heading, .heading2, .soon, .c-content, h2,#social, .c, .fa, .copyright {text-align:center;}
+html, body, .main-cel, .c-pic, #foo_ter {width: 100%;}
+html{height:100%;overflow-x: hidden;}
 
-#fixed-bg-wide, #fixed-bg-small, #fixed-bg-medium{
-    height:120vh;
-    width:100vw;
-    position:fixed;
-    z-index: -1;
+#fixed-bg-wide, #fixed-bg-small{
+    height:100vh;
+    width:100%;
 }
 
-#fixed-bg-small, #fixed-bg-medium{display:none;}
+#fixed-bg-small{display:none;}
 
-#div-one, #about-container, #event-container, #celeb-container{
+#event-container, #celeb-container{
     height:47em;
-    padding : 2.5em;
+    padding: 2.5em;
 }
 
-#web-team{
-    height:25em;
-    padding : 2.5em;
-    background-image: linear-gradient(to bottom right, rgb(37, 15, 66), rgba(3, 23, 41, 0.95), rgb(42, 29, 71));
+#about-container{
+    text-align: center;
+    width:550px;
+    padding:2.5em;
+    height:auto;
+    font-size:1.2em;
 }
 
-h4{
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: 550;
+#about-container h1{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+#event-container{
+    position:relative;
+    background: rgb(25, 9, 63);
+}
+#event-container::after{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    content: '';
+    background:inherit;
+    transform-origin: top left;
+    z-index:-1;
+    transform: skewY(2deg);
+}
+
+#event-content-grid{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 2em;
+}
+
+h4{font-weight: 550;}
+#e-head{
+    margin:1em;
+    color:#fff;
 }
 
 .w-rnk p, h4{
@@ -56,31 +87,10 @@ h4{
     height:12em;
 }
 
-#about-container, #event-container, #celeb-container,#web-team{
-    width:90%;
-}
-#about-container{background-image: linear-gradient(to bottom right, rgb(5, 1, 17), rgba(80, 5, 5, 0.95), rgb(4, 1, 8));}
-#event-container{background-image: linear-gradient(to bottom right,  rgb(8, 3, 26), rgba(21, 4, 66, 0.95), rgb(11, 2, 26));}
-#celeb-container{background-image: linear-gradient(to bottom left, rgb(21, 1, 31), rgba(38, 1, 63, 0.95), rgb(27, 1, 39));}
-
-
-#about-content, .event-content{
-    margin: 5px auto;
+.event-content{
+    margin: 0 auto;
     font-family: Tahoma, Verdana, sans-serif;
 }
-
-#about-content{
-    padding:20px 30px 30px;
-    width:60%;
-    border:dashed 2px;
-    font-size:1.4em;
-    box-shadow: 10px 8px 10px 5px rgb(15, 1, 1);
-    border-color: rgba(90, 0, 20, 0.89);    
-    background-color: rgb(255, 245, 245);
-    color:rgb(24, 11, 11);
-}
-
-#a-head{color:rgb(243, 232, 232);}
 
 .event-content{
     width:65%;
@@ -93,48 +103,33 @@ h4{
 }
 
 .card{
+    height:33em;
+    width:100%;
     box-shadow: 5px 5px 5px 5px rgb(15, 1, 1);
     border: solid 2px;
     border-color: rgb(50, 12, 99);
 }
 
-.card {
-    margin:1%;
-    height:33em;
-    width:30%;
-}
 
 .card-head{
-    background-color: rgb(33, 26, 75);
+    background-color: rgb(61, 25, 102);
     height:20%;
     padding: 5px 0 0 0;
+    margin-bottom:1em;
 }
 
-.heading, .heading2, #celeb-heading{margin:1.5em;}
-#e-head{color:rgb(221, 194, 243);}
+.heading2, #celeb-heading{margin:1.5em;}
 
-.heading{
-    font-size:2.6em;
-    color: #9c9292;
-    text-shadow:rgb(24, 10, 10) 3px 3px;
-}
+.heading{font-size:2.6em;}
 
 #web-heading{
     font-size:2.4em;
     margin-bottom:1em;
     text-align: center;
-    text-shadow: 2px 2px#000; 
-}
-
-.heading2{
-    color:rgb(205, 176, 230);
-    text-shadow:rgb(18, 1, 27) 3px 3px;
 }
 
 #celeb-heading{
-    font-size:2.6em;
-    color: rgb(250, 198, 250);
-    text-shadow: 2px 2px rgb(49, 10, 83); 
+    font-size:2.6em; 
     margin:0 0 1.5em;      
 }
 
