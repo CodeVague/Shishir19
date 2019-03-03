@@ -2,7 +2,7 @@ body{
     margin:0;
     background-color:rgb(38, 36, 48);    
 }
-
+.pointer {cursor: pointer;}
 h1{
     font-size:2.2em;
     text-align:center;

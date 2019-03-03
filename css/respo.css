@@ -28,7 +28,7 @@
     .w-pic{height:9em;margin:0;}
     .c-pic{height:9em;}
 }
-
+.pointer {cursor: pointer;}
 @media screen and (max-width:550px){
     body{max-width: 550px;}
     #fixed-bg-wide{display:none;}

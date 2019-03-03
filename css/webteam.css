@@ -17,7 +17,7 @@ body{margin:0; padding:0;}
     margin-left: 11.8%;
     padding-top: 30px;
 }
-
+.pointer {cursor: pointer;}
  img{
     border-radius: 25%;
     display: block;
