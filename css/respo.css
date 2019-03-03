@@ -11,7 +11,7 @@
     #event-container{margin:1em 0;}
     #event-content-grid{display:block;
     width:100%;}
-    .event-content{font-size:0.8em;width: 90%;padding:1em;}
+    .event-content{font-size:0.8em;width: 90%;padding:1em;line-height: 1.2em;}
     .heading2{margin:0.2em;font-size:1em;}
     .card{height:auto;width:99%;margin-bottom:2em;}
     .c-content p{font-size:0.75em;}
