@@ -7,6 +7,8 @@
     overflow: hidden;
 }
 
+.pointer {cursor: pointer;}
+
 .li-class {float : right;}
 .drop-inner{font-family: inherit; margin:0;}
 
