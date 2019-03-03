@@ -30,7 +30,7 @@
     .c-pic{height:9em;}
     #slide-constrict{width:100%;}
 }
-
+.pointer {cursor: pointer;}
 @media screen and (max-width:550px){
     body{max-width: 550px;}
     #fixed-bg-wide{display:none;}
