@@ -5,7 +5,8 @@
     .logo{width:5em;}
     .li-logo a, .li-logo, .li-logo a img{height:60px;}
     .ul-class{height:60px;}
-    #about-container, #event-container, #celeb-container{padding:1em 0 0 0;width:100%;}
+    #about-container{width:80%;} 
+    #event-container, #celeb-container{padding:1em 0 0 0;width:100%;}
     #about-content {font-size:0.8em;}
     #event-container{margin:1em 0;}
     #event-content-grid{display:block;
@@ -27,6 +28,7 @@
     .modal-content{padding: 0 0 1em 0;width:90%;}
     .w-pic{height:9em;margin:0;}
     .c-pic{height:9em;}
+    #slide-constrict{width:100%;}
 }
 
 @media screen and (max-width:550px){
