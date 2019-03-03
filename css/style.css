@@ -26,10 +26,11 @@ html{height:100%;overflow-x: hidden;}
 
 #about-container{
     text-align: justify;
-    width:580px;
+    width:500px;
     padding:2.5em;
     height:auto;
-    font-size:1.2em;
+    font-size:1em;
+    line-height: 1.5em;
     margin-bottom: 1.2em;
 }
 
@@ -92,7 +93,8 @@ h4{font-weight: 550;}
 
 .event-content{
     margin: 0 auto;
-    font-family: Tahoma, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3em;
 }
 
 .event-content{
