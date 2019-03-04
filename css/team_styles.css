@@ -3,8 +3,6 @@ body{
     margin:0;
     background-color: rgb(253, 243, 243);
 }
-*{color:#fff;
-    text-shadow: 2px 2px black;}
 
 .team-container{
     display:block;
