@@ -13,20 +13,21 @@ body{
 }
 
 .teams{
-    display:block;
+    display:flex;
+    flex-flow: row wrap;
     margin: 0 auto;
     width:80%;
-    height:55em;
+    height:50em;
 }
 .pointer {cursor: pointer;}
 .circle{
-    display:block;
+
     width:28%;
     height:8em;
     border-radius: 50%;
-    float:left;
+    border:none;
     margin:2%;
-    background-color: rgb(195, 157, 230);
+    background-color: rgb(178, 141, 197);
     -webkit-transition: background-color 1s ease 0s;
     transition: background-color 1s ease 0s;
 }
@@ -35,7 +36,7 @@ body{
 }
 
 .content{
-     text-align: center;
+    text-align: center;
     font-family: cursive;
     font-size: 25px;
     color:black;
@@ -43,6 +44,6 @@ body{
 
  h1{text-align: center;margin-top:5%;font-size:2em;}
 
-.circle a{margin-top: 40%;}
-#weba{margin-top:35%;}
+
+
  
