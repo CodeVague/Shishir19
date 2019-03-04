@@ -208,11 +208,12 @@ h4{font-weight: 550;}
 .slide-wrap span{
     color:#fff;
     font-size:1.5em;
+    font-weight:600;
 }
 
 #slide-grid{
     display:grid;
-    grid-template-columns : 1fr 1fr 1fr;
+    grid-template-columns : 1fr 1fr;
     grid-column-gap: 3em;
     grid-row-gap: 3em;
     grid-row: 2;
