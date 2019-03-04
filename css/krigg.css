@@ -7,11 +7,6 @@ body{margin:0; padding:0;}
     padding-top:30px;
 }
 
- img{
-    height: 22vw;
-    width: 18vw;
-    border-radius : 10%;
-}
 #co-coordi{
     height: 400px;
     display:flex;
@@ -32,6 +27,7 @@ body{margin:0; padding:0;}
 .box-i img{
     width:80%;
     height:90%;
+    border-radius : 10%;
 }
 h1,h2{
     text-align: center;
