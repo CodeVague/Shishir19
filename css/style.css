@@ -22,7 +22,16 @@ html{height:100%;overflow-x: hidden;}
 
 #event-container, #celeb-container{
     height:47em;
-    padding: 2.5em;
+    padding: 5px;
+}
+
+#timer{
+    text-align:center;
+    font-size: 4em;  
+    padding:0.25em; 
+}
+@media screen and (max-width: 800px){
+    #timer{font-size: 3em;}
 }
 
 #about-container{
