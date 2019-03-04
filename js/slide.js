@@ -10,11 +10,14 @@ function slide() {
     count = (count + 1) % len;
 }
 
-function sliding(x) {
-    slides[0].src = images[(count + 1 + x) % len];
-    slides[1].src = images[(count + 2 + x) % len];
-    slides[2].src = images[(count + 3 + x) % len];
-    count = (count + 1) % len;
+function slideup(){
+    slides[0].src = images[(count + 2) % len];
+    slides[1].src = images[(count) % len];
+    slides[2].src = images[(count + 1) % len];
+    if(count-1<0)
+        count = 2;
+    else
+        count = (count-1)%len;
 }
 
-setInterval(slide, 5000);
+// setInterval(slide, 5000);
