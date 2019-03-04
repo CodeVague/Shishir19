@@ -7,9 +7,10 @@ body{margin:0; padding:0;}
     padding-top:30px;
 }
 
- img{
-    height: 22vw;
-    width: 18vw;
+.box-i img{
+    border-radius: 10%;
+    height:90%;
+    width:80%;
 }
 #co-coordi{
     height: 400px;
@@ -18,11 +19,6 @@ body{margin:0; padding:0;}
     padding-top: 30px;
 }
 
- img{
-     border-radius:25%; 
-    height: 280px;
-    width: 250px;
-}
 .box-i{
     width:18em;
     height: 20em;
