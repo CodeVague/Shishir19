@@ -1,18 +1,21 @@
 body{margin:0; padding:0;}
 #head{
     height: 400px;
-    margin-left: 31%;
+    display:flex;
+    justify-content: center;
     padding-top:20px;
 }
 
 #coordi{
     height: 400px;
-    margin-left: 31%;
+    display:flex;
+    justify-content: center;
     padding-top:30px;
 }
 #co-coordi{
     height: 400px;
-    margin-left:31%;
+    display:flex;
+    justify-content: center;
     padding-top: 30px;
     
     
@@ -26,11 +29,11 @@ body{margin:0; padding:0;}
     
 }
 .box-i{
-    display:block;
+    
     width:18em;
     height: 20em;
     text-align: center;
-    float: left;
+    
     font-family: cursive;
 
 }
