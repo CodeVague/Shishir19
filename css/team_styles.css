@@ -9,6 +9,7 @@ body{
     margin: 0 auto;
     width:100%;
     height:55em;
+    margin-left:2%;
 }
 
 .teams{
@@ -20,11 +21,11 @@ body{
 .pointer {cursor: pointer;}
 .circle{
     display:block;
-    width:30%;
-    height:10em;
+    width:28%;
+    height:8em;
     border-radius: 50%;
     float:left;
-    margin:1%;
+    margin:2%;
     background-color: rgb(195, 157, 230);
     -webkit-transition: background-color 1s ease 0s;
     transition: background-color 1s ease 0s;

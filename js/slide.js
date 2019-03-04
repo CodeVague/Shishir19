@@ -20,4 +20,4 @@ function slideup(){
         count = (count-1)%len;
 }
 
-// setInterval(slide, 5000);
+setInterval(slide, 5000);
