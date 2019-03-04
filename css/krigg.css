@@ -10,7 +10,18 @@ body{margin:0; padding:0;}
  img{
     height: 22vw;
     width: 18vw;
-    
+}
+#co-coordi{
+    height: 400px;
+    display:flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+ img{
+     border-radius:25%; 
+    height: 280px;
+    width: 250px;
 }
 .box-i{
     width:18em;
