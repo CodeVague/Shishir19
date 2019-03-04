@@ -58,3 +58,9 @@ th{
 
 
 .ul-class1{background-color:rgb(11, 12, 29);}
+
+@media screen and (max-width:800px){
+    td{
+        font-size: 1em;
+    }
+}
