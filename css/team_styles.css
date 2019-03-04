@@ -21,6 +21,7 @@ body{
 }
 .pointer {cursor: pointer;}
 .circle{
+     
 
     width:28%;
     height:8em;
@@ -34,13 +35,14 @@ body{
 .circle:hover{
     background-color:rgb(137, 72, 153); 
 }
-
 .content{
     text-align: center;
     font-family: cursive;
     font-size: 25px;
     color:black;
 }
+
+
 
  h1{text-align: center;margin-top:5%;font-size:2em;}
 
