@@ -10,18 +10,13 @@ body{margin:0; padding:0;}
  img{
     height: 22vw;
     width: 18vw;
+    border-radius : 10%;
 }
 #co-coordi{
     height: 400px;
     display:flex;
     justify-content: center;
     padding-top: 30px;
-}
-
- img{
-     border-radius:25%; 
-    height: 280px;
-    width: 250px;
 }
 .box-i{
     width:18em;
@@ -40,5 +35,3 @@ h1,h2{
     color: rgb(39, 43, 49);
     margin-top:2em;
 }
-
-body{background-image: linear-gradient(to  right, rgb(134, 199, 128),rgb(177, 233, 214));}
