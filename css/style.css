@@ -3,6 +3,7 @@
     padding:0;
     font-family: Arial, Helvetica, sans-serif;
 }
+li{cursor: pointer;}
 #about-container, #web-team, #event-container, #celeb-container, #button, .c-content, .soon, .cel, .main-cel, .c-pic
 , #contact-details, #footer_img_div, .icon, #social,.copyrigh, .event-content, #btn {display:block;}
 #about-container, #event-container, #celeb-container, .c-content, .soon, #social,.copyright, #web-team, #btn-more {margin : 0 auto;}
