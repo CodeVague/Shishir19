@@ -24,6 +24,8 @@ body{margin:0; padding:0;}
     justify-content: center;
     padding-top: 30px;
 }
+*{color:#fff;
+    text-shadow: 2px 2px black;}
 .box-i{
     width:18em;
     height: 20em;

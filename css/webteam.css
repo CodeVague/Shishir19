@@ -1,5 +1,6 @@
 body{margin:0; padding:0;}
-
+*{color:#fff;
+    text-shadow: 2px 2px black;}
 #coordi,#co-coordi, #head{
     height: 400px;
     display:flex;
