@@ -42,3 +42,19 @@ h1 {
     position:fixed;
     z-index : -1;
 }
+@media screen and (max-width: 800px){
+    .box-i img{
+    width:90%; 
+    height:40vh;
+    }
+    #head{
+        display:block;
+    }
+    #head .box-i img{
+        width:40vw;
+    }  
+    .box-i{
+        width:49%;
+        float:left;
+    }
+}

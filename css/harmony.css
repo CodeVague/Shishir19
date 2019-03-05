@@ -14,12 +14,6 @@ body{margin:0; padding:0;}
     height:90%;
     width:80%;
 }
-#co-coordi{
-    height: 400px;
-    display:flex;
-    justify-content: center;
-    padding-top: 30px;
-}
 .box-i{
     width:18em;
     height: 20em;
