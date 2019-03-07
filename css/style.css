@@ -29,7 +29,7 @@ html{height:100%;overflow-x: hidden;}
     text-align:center;
     font-size: 4em;  
     padding: 5px;
-    background-color:rgb(218, 218, 218);
+    border-radius: 5% 5% 0 0;
 }
 @media screen and (max-width: 800px){
     #timer{font-size: 3em;}
@@ -54,6 +54,7 @@ html{height:100%;overflow-x: hidden;}
 #event-container{
     position:relative;
     background: rgb(25, 9, 63);
+    border-radius: 3% 3% 0 0;
 }
 #event-container::after{
     position:absolute;
@@ -68,6 +69,7 @@ html{height:100%;overflow-x: hidden;}
     transform-origin: top left;
     z-index:-1;
     transform: skewY(3deg);
+    border-radius: 5% 5% 0 0;
 }
 #event-container h1{text-shadow:3px 3px black;}
 
@@ -182,6 +184,7 @@ h4{font-weight: 550;}
     margin: auto;
     margin-bottom: 6em;
     background: rgb(13, 13, 14);
+    border-radius: 0 0 5% 5%;
 }
 #slide-container::after{
     width:100%;
@@ -196,6 +199,7 @@ h4{font-weight: 550;}
     content: '';
     transform-origin: top right;
     transform: skewY(3deg);
+    border-radius: 0 0 10% 10%;
 }
 #slide-container h1{color:#fff;text-shadow: 2px 2px black;}
 
@@ -237,6 +241,10 @@ h4{font-weight: 550;}
     }
     .slide-item{
         padding:0;
+    }
+    #slide-grid{
+        grid-column-gap: 1em;
+        margin: 2em 0;
     }
 }
 
