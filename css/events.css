@@ -137,3 +137,8 @@ nav{margin:0;}
 .modal-content{height:auto;}
 li{text-align:left;}
 li,a,.part,.part1,.fpart h2,.fpart1 h2,h3,.part h2, .part1 h2,#E0 h2, .f-part h3,#X0 h2, .f-part, .f-part h2{cursor: pointer;}
+@media screen and (max-width:1200px){
+  #E12{
+    line-height: 4em;
+  }
+}
