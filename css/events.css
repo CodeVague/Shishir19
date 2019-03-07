@@ -1,5 +1,6 @@
 *{font-family: Arial, Helvetica, sans-serif; 
-  text-align: center;}
+  text-align: center;
+  cursor: default;}
 body {background-color: rgb(222, 253, 252);padding:0; margin:0;}
 h1, h2 {text-align: center;}
 h1 {font-size:2.4em;}
@@ -135,4 +136,4 @@ height:25em;}
 nav{margin:0;}
 .modal-content{height:auto;}
 li{text-align:left;}
-li{cursor: pointer;}
+li,a,.part,.part1,.fpart h2,.fpart1 h2,h3,.part h2, .part1 h2,#E0 h2, .f-part h3,#X0 h2, .f-part, .f-part h2{cursor: pointer;}
