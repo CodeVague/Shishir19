@@ -3,6 +3,7 @@ h3,body, ul, nav{margin:0;padding:0;}
 h1{
     text-align:center;
     font-size: 2.5em;
+    margin-top:2em;
 }
 .con-container{display:block; height:20em;}
 .cover{
@@ -15,14 +16,15 @@ h1{
 
 .cards{
     display:block;
+    box-sizing:border-box;
     width:50%;
     margin : 0 auto;
     height:auto;
     border: 2px solid;
+    margin-bottom:10vh;
 }
-
 img{
-    height:15em;
+    height:60vh;
     width:100%;
 }
 
@@ -44,6 +46,9 @@ span{
 }
 
 @media screen and (max-width: 800px){
+    .cover{
+        width:80%;
+    }
     .cards{
         width: 100%;
     }
