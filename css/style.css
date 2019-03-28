@@ -213,7 +213,7 @@ h4 {
 
 @media screen and (max-width:800px) {
     #celeb-container {
-        height: 50em;
+        height: 55em;
     }
 }
 
@@ -255,33 +255,48 @@ h4 {
 }
 
 .soon {
-    width: 60%;
-    background-color: lightslategray;
+    width: 70%;
+    background-color: rgb(211, 211, 211);
     height: 100%;
 }
 
-.soon img{
-    float:left;
-    height:100%;
-    width:50%;
-    margin-right:1em;
+.soon img {
+    float: left;
+    height: 100%;
+    width: 50%;
 }
 
-.cel_detail{
-    box-sizing:border-box;
-    padding:3em;
+.cel_detail {
+    display: block;
+    float: left;
+    width: 49%;
+    box-sizing: border-box;
+    padding: 3em;
     text-align: justify;
     font-family: Arial;
+    line-height: 1.4;
 }
 
-.cel_detail h2{
-    color:#000;
-    text-shadow: 1px 1px rgb(68, 68, 68);
+.cel_detail h2 {
+    color: #000;
 }
 
 @media screen and (max-width:800px) {
     .soon {
-        width: 90%;
+        width: 100%;
+    }
+
+    .cel_detail h2 {
+        font-size:1.2em;
+    }
+
+    .cel_detail {
+        padding: 0.5em;
+        line-height: 1.1;
+    }
+
+    .cel_detail span {
+        font-size: 0.75em;
     }
 }
 
@@ -302,7 +317,7 @@ h4 {
 }
 
 .main-cel {
-    height: 25em;
+    height: 28em;
     margin-bottom: 2em;
 }
 
