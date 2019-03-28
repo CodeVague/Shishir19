@@ -1,313 +1,476 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-li{cursor: pointer;}
-#about-container, #web-team, #event-container, #celeb-container, #button, .c-content, .soon, .cel, .main-cel, .c-pic
-, #contact-details, #footer_img_div, .icon, #social,.copyrigh, .event-content, #btn {display:block;}
-#about-container, #event-container, #celeb-container, .c-content, .soon, #social,.copyright, #web-team, #btn-more {margin : 0 auto;}
-.card, .cel, #footer_img_div, #contact-details, .fa-facebook, .fa-instagram, .fa-youtube {float:left;}
-.nitm-logo, .shishir_logo{float:right;}
-.heading, #celeb-heading, .heading2, .soon, .c-content, h2,#social, .c, .fa, .copyright {text-align:center;}
-html, body, .main-cel, .c-pic, #foo_ter {width: 100%;}
-html{height:100%;overflow-x: hidden;}
 
-#fixed-bg-wide, #fixed-bg-small{
-    height:100vh;
-    width:100%;
+li {
+    cursor: pointer;
 }
-.pointer {cursor: pointer;}
-#fixed-bg-small{display:none;}
 
-#event-container, #celeb-container{
-    height:47em;
+#about-container,
+#web-team,
+#event-container,
+#celeb-container,
+#button,
+.c-content,
+.soon,
+.cel,
+.main-cel,
+.c-pic,
+#contact-details,
+#footer_img_div,
+.icon,
+#social,
+.copyrigh,
+.event-content,
+#btn {
+    display: block;
+}
+
+#about-container,
+#event-container,
+#celeb-container,
+.c-content,
+.soon,
+#social,
+.copyright,
+#web-team,
+#btn-more {
+    margin: 0 auto;
+}
+
+.card,
+.cel,
+#footer_img_div,
+#contact-details,
+.fa-facebook,
+.fa-instagram,
+.fa-youtube {
+    float: left;
+}
+
+.nitm-logo,
+.shishir_logo {
+    float: right;
+}
+
+.heading,
+#celeb-heading,
+.heading2,
+.soon,
+.c-content,
+h2,
+#social,
+.c,
+.fa,
+.copyright {
+    text-align: center;
+}
+
+html,
+body,
+.main-cel,
+.c-pic,
+#foo_ter {
+    width: 100%;
+}
+
+html {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#fixed-bg-wide,
+#fixed-bg-small {
+    height: 100vh;
+    width: 100%;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+#fixed-bg-small {
+    display: none;
+}
+
+#event-container,
+#celeb-container {
     padding: 2.5em;
 }
 
-#timer{
-    text-align:center;
-    font-size: 4em;  
+#timer {
+    text-align: center;
+    font-size: 4em;
     padding: 5px;
     border-radius: 5% 5% 0 0;
 }
-@media screen and (max-width: 800px){
-    #timer{font-size: 3em;}
+
+@media screen and (max-width: 800px) {
+    #timer {
+        font-size: 3em;
+    }
 }
 
-#about-container{
+#about-container {
     text-align: justify;
-    width:500px;
-    padding:2.5em;
-    height:auto;
-    font-size:1em;
+    width: 500px;
+    padding: 2.5em;
+    height: auto;
+    font-size: 1em;
     line-height: 1.5em;
     margin-bottom: 1.2em;
 }
 
-#about-container h1{
+#about-container h1 {
     font-size: 2em;
     margin-bottom: 1em;
-    text-align:center;
+    text-align: center;
 }
 
-#event-container{
-    position:relative;
+#event-container {
+    height: 47em;
+    position: relative;
     background: rgb(25, 9, 63);
     border-radius: 3% 3% 0 0;
 }
-#event-container::after{
-    position:absolute;
-    width:100%;
-    height:100%;
-    top:0;
-    left:0;
-    bottom:0;
-    right:0;
+
+#event-container::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     content: '';
-    background:inherit;
+    background: inherit;
     transform-origin: top left;
-    z-index:-1;
+    z-index: -1;
     transform: skewY(3deg);
     border-radius: 5% 5% 0 0;
 }
-#event-container h1{text-shadow:3px 3px black;}
 
-#event-content-grid{
-    display:grid;
-    grid-template-columns: repeat(4,1fr);
+#event-container h1 {
+    text-shadow: 3px 3px black;
+}
+
+#event-content-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 2em;
 }
 
-h4{font-weight: 550;}
-#e-head{
-    margin:1em;
-    color:#fff;
+h4 {
+    font-weight: 550;
 }
 
-.w-rnk p, h4{
-    margin-top:0.5em;
-    text-align:center;
+#e-head {
+    margin: 1em;
+    color: #fff;
 }
 
-.web-t{
+.w-rnk p,
+h4 {
+    margin-top: 0.5em;
+    text-align: center;
+}
+
+.web-t {
     box-sizing: border-box;
-    padding:10px;
+    padding: 10px;
     margin-top: 2.5em;
     width: 14.28%;
     float: left;
 }
 
-.w-pic{
+.w-pic {
     border-radius: 50%;
-    width:90%;
-    height:12em;
+    width: 90%;
+    height: 12em;
 }
 
-.event-content{
+.event-content {
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.3em;
 }
 
-.event-content{
-    width:65%;
-    padding:30px;
+.event-content {
+    width: 65%;
+    padding: 30px;
     text-align: center;
-    font-size:1.3em;
+    font-size: 1.3em;
     box-shadow: 3px 3px 3px 5px rgb(15, 1, 1);
     background-color: lightcyan;
     color: rgb(7, 7, 75);
 }
 
-.card{
-    height:33em;
-    width:100%;
+#celeb-container {
+    height: 60em;
+}
+
+@media screen and (max-width:800px) {
+    #celeb-container {
+        height: 50em;
+    }
+}
+
+.card {
+    height: 33em;
+    width: 100%;
     box-shadow: 5px 5px 5px 5px rgb(15, 1, 1);
     border: solid 2px;
     border-color: rgb(50, 12, 99);
 }
 
 
-.card-head{
+.card-head {
     background-color: rgb(51, 18, 90);
-    height:20%;
+    height: 20%;
     padding: 5px 0 0 0;
-    margin-bottom:1em;
+    margin-bottom: 1em;
     text-shadow: 3px 3px rgb(21, 4, 26);
 }
 
-.heading2, #celeb-heading{margin:1.5em;}
+.heading2,
+#celeb-heading {
+    margin: 1.5em;
+}
 
-.heading{font-size:2.6em;}
+.heading {
+    font-size: 2.6em;
+}
 
-#web-heading{
-    font-size:2.4em;
-    margin-bottom:1em;
+#web-heading {
+    font-size: 2.4em;
+    margin-bottom: 1em;
     text-align: center;
 }
 
-#celeb-heading{
-    font-size:3em; 
-    margin:0 0 1.5em; 
-}
-
-.soon{
-    padding:10px;
+#celeb-heading {
     font-size: 3em;
+    margin: 1em 0;
 }
 
-.c-name{
-    font-weight:bold;
-    font-size:1.2em;
+.soon {
+    width: 60%;
+    background-color: lightslategray;
+    height: 100%;
 }
 
-.cel{
+.soon img{
+    float:left;
+    height:100%;
+    width:50%;
+    margin-right:1em;
+}
+
+.cel_detail{
+    box-sizing:border-box;
+    padding:3em;
+    text-align: justify;
+    font-family: Arial;
+}
+
+.cel_detail h2{
+    color:#000;
+    text-shadow: 1px 1px rgb(68, 68, 68);
+}
+
+@media screen and (max-width:800px) {
+    .soon {
+        width: 90%;
+    }
+}
+
+.c-name {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.cel {
     box-sizing: border-box;
-    padding:10px;
-    width:20%;
+    padding: 10px;
+    width: 20%;
     overflow: hidden;
 }
 
-.c-pic{height:200px;}
-.main-cel{height:40%;}
+.c-pic {
+    height: 200px;
+}
+
+.main-cel {
+    height: 25em;
+    margin-bottom: 2em;
+}
 
 
-#slide-container{
-    display:block;
+#slide-container {
+    display: block;
     box-sizing: border-box;
-    width:100%;
-    height:auto;
-    padding:2em 2em 5em;
-    position:relative;
-    text-align:center;
+    width: 100%;
+    height: auto;
+    padding: 2em 2em 5em;
+    position: relative;
+    text-align: center;
     margin: auto;
     margin-bottom: 6em;
     background: rgb(13, 13, 14);
     border-radius: 0 0 5% 5%;
 }
-#slide-container::after{
-    width:100%;
-    height:100%;
-    background:inherit;
+
+#slide-container::after {
+    width: 100%;
+    height: 100%;
+    background: inherit;
     position: absolute;
-    top : 0;
-    left : 0;
+    top: 0;
+    left: 0;
     bottom: 0;
-    right : 0;
-    z-index : -1;
+    right: 0;
+    z-index: -1;
     content: '';
     transform-origin: top right;
     transform: skewY(3deg);
     border-radius: 0 0 10% 10%;
 }
-#slide-container h1{color:#fff;text-shadow: 2px 2px black;}
 
-#slide-constrict{
-    display:block;
-    width:90%;
+#slide-container h1 {
+    color: #fff;
+    text-shadow: 2px 2px black;
+}
+
+#slide-constrict {
+    display: block;
+    width: 90%;
     margin: 0 auto;
 }
 
-.slide-wrap span{
-    color:#fff;
-    font-size:1.5em;
-    font-weight:600;
+.slide-wrap span {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 600;
 }
 
-#slide-grid{
-    display:grid;
-    grid-template-columns : 1fr 1fr;
+#slide-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     grid-column-gap: 3em;
     grid-row-gap: 3em;
     grid-row: 2;
-    margin:4em 2em auto;
+    margin: 4em 2em auto;
 }
 
-.slide-item{
-    display:block;
+.slide-item {
+    display: block;
     box-sizing: border-box;
     padding: 20px;
     margin: 0 auto;
     height: 50vh;
     width: 100%;
-    transition:0.25s ease-in;
-    overflow:none;
+    transition: 0.25s ease-in;
+    overflow: none;
 }
 
-@media screen and (max-width: 800px){
-    .slide-wrap:nth-child(even){
-        display:none;
+@media screen and (max-width: 800px) {
+    .slide-wrap:nth-child(even) {
+        display: none;
     }
-    .slide-item{
-        padding:0;
+
+    .slide-item {
+        padding: 0;
     }
-    #slide-grid{
+
+    #slide-grid {
         grid-column-gap: 1em;
         margin: 2em 0;
     }
 }
 
 
-#foo_ter{
+#foo_ter {
     background-color: #222222;
-    height:100%; 
-    margin:0;  
+    height: 100%;
+    margin: 0;
 }
 
-.nitm-logo{
-    margin:2.5em 1.6em 1.6em;
+.nitm-logo {
+    margin: 2.5em 1.6em 1.6em;
     width: 5em;
     height: 5em;
 }
 
-.shishir_logo{
-    margin:2.5em 1.6em 1.6em;
-    height:5em;
+.shishir_logo {
+    margin: 2.5em 1.6em 1.6em;
+    height: 5em;
     width: 6.25em;
 }
 
-.c{font-size:1em;}
+.c {
+    font-size: 1em;
+}
 
-h2, #social, .c, .fa{color:white;}
+h2,
+#social,
+.c,
+.fa {
+    color: white;
+}
 
-.map{
-    margin:20px;
-    padding:20px;
+.map {
+    margin: 20px;
+    padding: 20px;
     text-align: center;
 }
 
 
-#contact-details{
+#contact-details {
     margin: 4.0em 0;
     padding: 0.6em;
-    width:33%;
+    width: 33%;
 }
 
-.upper, .lower{
-    display:flex;
-    width:100%;
+.upper,
+.lower {
+    display: flex;
+    width: 100%;
 }
 
-#social{
-    width:33%;
+#social {
+    width: 33%;
     margin-top: 4em;
     height: 9.3em;
 }
- 
-.icon{
-    display:block;
+
+.icon {
+    display: block;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.fa-facebook {background: #3B5998;}
-.fa-instagram {background: #c53093;}
-.fa-youtube {background: #bb0000;}
+.fa-facebook {
+    background: #3B5998;
+}
+
+.fa-instagram {
+    background: #c53093;
+}
+
+.fa-youtube {
+    background: #bb0000;
+}
 
 .fa {
-    margin:1em 1em;
-    border-radius:30%;
+    margin: 1em 1em;
+    border-radius: 30%;
 }
-.fa:hover {opacity: 0.7;}
-.copyright{width:33%;margin-top:5em;}
 
+.fa:hover {
+    opacity: 0.7;
+}
+
+.copyright {
+    width: 33%;
+    margin-top: 5em;
+}
