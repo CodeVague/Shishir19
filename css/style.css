@@ -16,7 +16,6 @@ li {
 .c-content,
 .soon,
 .cel,
-.main-cel,
 .c-pic,
 #contact-details,
 #footer_img_div,
@@ -254,51 +253,43 @@ h4 {
     margin: 1em 0;
 }
 
-.soon {
-    width: 70%;
-    background-color: rgb(216, 198, 228);
-    height: 100%;
-}
 
 .soon img {
     float: left;
-    height: 100%;
-    width: 50%;
+    width: 100%;
+    height:22em;
+}
+
+.cel-vid{
+    width:100%;
+    display:block;
+    height:22em;
 }
 
 .cel_detail {
-    display: block;
-    float: left;
-    width: 49%;
     box-sizing: border-box;
     padding: 3em;
-    text-align: justify;
+    text-align: center;
     font-family: Arial;
     line-height: 1.4;
+}
+
+video{
+    width:100%;
+    height: 22em;
 }
 
 .cel_detail h2 {
     color: #000;
 }
 
-@media screen and (max-width:800px) {
-    .soon {
-        width: 100%;
-    }
-
-    .cel_detail h2 {
-        font-size:1.2em;
-    }
-
-    .cel_detail {
-        padding: 0.5em;
-        line-height: 1.1;
-    }
-
+@media screen and (max-width:1000px) {
     .cel_detail span {
-        font-size:1em;
+        font-size:0.75em;
     }
 }
+
+
 
 .c-name {
     font-weight: bold;
@@ -317,10 +308,43 @@ h4 {
 }
 
 .main-cel {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
     height: 28em;
     margin-bottom: 2em;
 }
 
+@media screen and (max-width:800px) {
+    .main-cel{
+        height: 35em;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 2;
+    }
+    .soon {
+        width: 100%;
+    }
+
+    .cel-vid{
+        grid-column: 1/3;
+        margin-top:2em;
+    }
+    video{
+        height:12em;
+    }
+
+    .cel_detail h2 {
+        font-size:1.2em;
+    }
+
+    .cel_detail {
+        padding: 0.5em;
+        line-height: 1.1;
+    }
+
+    .cel_detail span {
+        font-size:1em;
+    }
+}
 
 #slide-container {
     display: block;
