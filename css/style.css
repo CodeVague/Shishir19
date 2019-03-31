@@ -256,7 +256,7 @@ h4 {
 
 .soon {
     width: 70%;
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(216, 198, 228);
     height: 100%;
 }
 
@@ -296,7 +296,7 @@ h4 {
     }
 
     .cel_detail span {
-        font-size: 0.75em;
+        font-size:1em;
     }
 }
 
